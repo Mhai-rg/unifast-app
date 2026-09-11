@@ -1,7 +1,5 @@
 package com.example.unifastapp.quarter2;
 
-import static java.sql.DriverManager.println;
-
 import org.junit.Test;
 
 public class Montilano_MiniPeta_1 {
