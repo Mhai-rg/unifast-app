@@ -7,7 +7,7 @@ public class Montilano_MiniPeta_1 {
     public void printMyprofile() {
 
         String myName = "Montilano";
-        String petName = "Peper";
+        String petName = "Pepper";
         String favFood = "Donut";
         int myAge = 16;
 
