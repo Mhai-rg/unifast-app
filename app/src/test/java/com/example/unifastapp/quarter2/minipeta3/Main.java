@@ -8,10 +8,8 @@ public class Main {
     public void start(Scanner scanner) {
         boolean isReadyToLogin = true;
 
-        // Stores username
         String username = "hersheymhaymiasco";
 
-        // Stores password
         String password = "N0224";
 
         if (isReadyToLogin) {
@@ -24,13 +22,10 @@ public class Main {
 
         int transactionID = 1001;
 
-        // Stores the transaction amount
         double transactionAmount = 500.00;
 
-        // Records the transaction date
         String transactionDate = "July 8, 2026";
 
-        // Shows the transaction status
         Boolean transactionStatus = true;
 
         System.out.println("Transaction ID: " + transactionID);
