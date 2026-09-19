@@ -2,7 +2,9 @@ package com.example.unifastapp.quarter2.minipeta3;
 
 import java.util.Scanner;
 import org.junit.Test;
+
 public class Main {
+
     @Test
     public void start(Scanner scanner) {
         boolean isRunning = true;
@@ -49,7 +51,7 @@ public class Main {
                     }
 
                     String transactionDate = "July 8, 2026";
-                    Boolean transactionStatus = true;
+                    boolean transactionStatus = true;
 
                     System.out.println("\n--- TRANSACTION DETAILS ---");
                     System.out.println("Transaction ID: " + transactionID);
@@ -59,10 +61,6 @@ public class Main {
                     break;
 
                 case "3":
-                    if (scanner.hasNextLine()) scanner.nextLine();
-                    if (scanner.hasNextLine()) scanner.nextLine();
-                    if (scanner.hasNextLine()) scanner.nextLine();
-
                     // 3. Montilano_Receipt
                     String customerName = "Jazz Montilano";
                     String itemName = "uniform";
@@ -97,11 +95,8 @@ public class Main {
                     break;
 
                 case "4":
-                    System.out.println("\nExiting System. Goodbye!");
+                    System.out.println("\nExiting App. Goodbye!");
                     isRunning = false;
-                    break;
-
-                default:
                     break;
             }
         }

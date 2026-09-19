@@ -32,9 +32,9 @@ public class MainSystemTest {
         }
 
         System.out.println("Generating inputs for specific features...");
-        simulatedUserInput.append("3\n");    // E.g., Enter a specific sub-menu (like Settings or Combo Meals)
-        simulatedUserInput.append("1\n");    // E.g., Choose an option inside that sub-menu
-        simulatedUserInput.append("9999\n"); // E.g., Type a specific value (like a PIN or a quantity)
+        simulatedUserInput.append("1\n");    // E.g., Enter a specific sub-menu (like Settings or Combo Meals)
+        simulatedUserInput.append("2\n");    // E.g., Choose an option inside that sub-menu
+        simulatedUserInput.append("6767\n"); // E.g., Type a specific value (like a PIN or a quantity)
         simulatedUserInput.append("3\n");    // E.g., Go back to the Main Menu
 
 
