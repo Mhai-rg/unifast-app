@@ -1,8 +1,9 @@
 package com.example.unifastapp.quarter2.minipeta3;
 
 import java.util.Scanner;
-
+import org.junit.Test;
 public class Main {
+    @Test
     public void start(Scanner scanner) {
         boolean isRunning = true;
 
