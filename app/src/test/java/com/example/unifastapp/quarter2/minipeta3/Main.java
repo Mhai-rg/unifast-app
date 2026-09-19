@@ -3,8 +3,6 @@ package com.example.unifastapp.quarter2.minipeta3;
 import java.util.Scanner;
 
 public class Main {
-
-    // Regular helper method called by MainSystemTest (NO @Test annotation!)
     public void start(Scanner scanner) {
         boolean isRunning = true;
 
@@ -42,7 +40,6 @@ public class Main {
                     int transactionID = 1001;
                     double transactionAmount = 500.00;
 
-                    // Consume the extra number line (300 or 5000) sent by the test harness
                     if (scanner.hasNextLine()) {
                         String inputAmount = scanner.nextLine().trim();
                         try {
@@ -61,7 +58,6 @@ public class Main {
                     break;
 
                 case "3":
-                    // Consume the extra sub-menu choice lines ("1", "9999", "3") sent by the test harness
                     if (scanner.hasNextLine()) scanner.nextLine();
                     if (scanner.hasNextLine()) scanner.nextLine();
                     if (scanner.hasNextLine()) scanner.nextLine();
