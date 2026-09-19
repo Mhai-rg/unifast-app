@@ -15,7 +15,7 @@ public class Main {
             System.out.println("\n--- MAIN MENU ---");
             System.out.println("1. Login");
             System.out.println("2. Process Transaction");
-            System.out.println("3. Print Receipt");
+            System.out.println("3. Sub-Menu / Print Receipt");
             System.out.println("4. Exit");
             System.out.print("Select an option: ");
 
