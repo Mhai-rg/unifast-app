@@ -7,7 +7,14 @@ import java.util.Scanner;
 public class Gamad_FastFoodMenu {
     @Test
     public void start(Scanner scanner) {
-        //Main loop
+        boolean running = true;
+        while (running) {
+            System.out.println("\n=== FAST FOOD MENU ===");
+            System.out.println("1. Order Burger");
+            System.out.println("2. Order Fries");
+            System.out.println("3. Exit");
+            System.out.print("Choose an option: ");
+        }
     }
     private void handleBurgerOrder(Scanner scanner) {
         // burger cases
