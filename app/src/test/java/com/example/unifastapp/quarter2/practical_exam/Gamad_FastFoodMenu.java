@@ -34,10 +34,10 @@ public class Gamad_FastFoodMenu {
         boolean running = true;
         while (running) {
             System.out.println("\n=== FAST FOOD MENU ===");
+            System.out.println("Choose an option: ");
             System.out.println("1. Order Burger");
             System.out.println("2. Order Fries");
             System.out.println("3. Exit");
-            System.out.print("Choose an option: ");
 
             if (!scanner.hasNextInt()) {
                 break;
@@ -53,7 +53,7 @@ public class Gamad_FastFoodMenu {
                     handleFriesOrder();
                     break;
                 case 3:
-                    System.out.println("Exiting fast food system. Thank you!");
+                    System.out.println("Exiting fast food menu. Thank you!");
                     running = false;
                     break;
                 default:
@@ -62,3 +62,26 @@ public class Gamad_FastFoodMenu {
             }
         }
     }
+    //routing
+    private void handleBurgerOrder(Scanner scanner) {
+        System.out.println("\n--- Burger Menu ---");
+        System.out.println("Choose burger option: ");
+        System.out.println("1. Combo (Upgraded)");
+        System.out.println("2. Solo");
+
+        if (scanner.hasNextInt()) {
+            int burgerChoice = scanner.nextInt();
+
+            if (burgerChoice == 1) {
+                System.out.println("You ordered a Burger Combo!");
+            } else if (burgerChoice == 2) {
+                System.out.println("You ordered a Solo Burger!");
+            } else {
+                System.out.println("Invalid option.");
+            }
+        }
+    }
+    private void handleFriesOrder() {
+        System.out.println("\nYou ordered Fries!");
+    }
+}
