@@ -62,7 +62,21 @@ public class SanAndres_CinemaTicketingMenu {
     }
     scanner.close();
 }
+  private void handleBuyTicket(Scanner scanner) {
+      System.out.print("Enter your age: ");
+      int age = scanner.nextInt();
+      scanner.nextLine();
 
+      if (age >= 18) {
+          System.out.println("Ticket Printed — Enjoy the movie!");
+    } else {
+        System.out.println("Access Denied — Age must be 18 or older.");
+    }
+}
+  private void handleBuySnacks(Scanner scanner) {
+      System.out.println("Snack purchase feature selected.");
+      System.out.println("Thank you for buying snacks!");
+}
 
 
 
