@@ -1,12 +1,10 @@
-package com.example.unifastapp.quarter2.practical_exam;
-
-public class Montilano_GymAccessTest {
-}
 package com.example.sampleapplicationfordemo.quarter2.practicalexam;
+
 import org.junit.Test;
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
-public class GymAccessTest {
+
+public class Montilano_GymAccessTest {
     @Test
     public void testGymFlow() {
         StringBuilder automatedInput = new StringBuilder();
@@ -24,7 +22,7 @@ public class GymAccessTest {
         System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
         ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
         Scanner scanner = new Scanner(inputStream);
-        GymMenu gymSystem = new GymMenu();
+        Montilano_GymAccessTest gymSystem = new Montilano_GymAccessTest();
         gymSystem.start(scanner);
     }
 }
