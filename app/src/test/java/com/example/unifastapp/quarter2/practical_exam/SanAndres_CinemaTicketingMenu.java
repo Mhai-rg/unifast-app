@@ -3,10 +3,11 @@ package com.example.unifastapp.quarter2.practical_exam;
 import org.junit.Test;
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
+
 public class SanAndres_CinemaTicketingMenu {
     @Test
     //CinemaTicketingTestTemplate
-    public void testCinemaTicketingMenu() {
+    public void testCinemaTicketingFlow() {
         StringBuilder automatedInput = new StringBuilder();
         System.out.println("--- GENERATING CINEMA TEST DATA ---");
         // Step 1: Test underage restriction (< 18)
@@ -22,73 +23,60 @@ public class SanAndres_CinemaTicketingMenu {
         System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
         ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
         Scanner scanner = new Scanner(inputStream);
-        CinemaMenu cinemaSystem = new CinemaMenu();
-        cinemaSystem.start(scanner);
+
+        // Instantiaties class and calls main menu loop
+        SanAndres_CinemaTicketingMenu CinemaTicketingSystem = SanAndres_CinemaTicketingMenu();
+        CinemaTicketingSystem.start(scanner);
     }
-}
 
     //main sytem/while loop and cases
     public void start(Scanner scanner) {
         boolean running = true;
-
         while (running) {
             System.out.println("=== CINEMA MENU ===");
             System.out.println("1. Buy Ticket");
             System.out.println("2. Buy Snacks");
             System.out.println("3. Exit");
             System.out.print("Enter choice: ");
+
+            if (!scanner.hasNextInt()) {
+                break;
+            }
+
+            int msinChoice = scanner.nextInt();
+
+            switch (mainChoice) {
+                case 1:
+                    handleBuyTicket(scanner);
+                    break;
+                case 2:
+                    handleBuySnacks(scanner);
+                    break;
+                case 3:
+                    System.out.println("Exiting system...");
+                    running = false;
+                    break;
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+            }
         }
+        scanner.close();
     }
-            if(!scanner.hasNextInt()){
-               break;
-        }
-        int msinChoice = scanner.nextInt();
+
+    private void handleBuyTicket(Scanner scanner) {
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
         scanner.nextLine();
 
-        switch (mainchoice) {
-            case 1:
-                handleBuyTicket(scanner);
-                break;
-            case 2:
-                handleBuySnacks(scanner);
-                break;
-            case 3:
-                System.out.println("Exiting system...");
-                running = false;
-                break;
-            default:
-                System.out.println("Invalid choice. Please try again.");
+        if (age >= 18) {
+            System.out.println("Ticket Printed — Enjoy the movie!");
+        } else {
+            System.out.println("Access Denied — Age must be 18 or older.");
         }
     }
-    scanner.close();
-}
-  private void handleBuyTicket(Scanner scanner) {
-      System.out.print("Enter your age: ");
-      int age = scanner.nextInt();
-      scanner.nextLine();
 
-      if (age >= 18) {
-          System.out.println("Ticket Printed — Enjoy the movie!");
-    } else {
-        System.out.println("Access Denied — Age must be 18 or older.");
+    private void handleBuySnacks(Scanner scanner) {
+        System.out.println("Snack purchase feature selected.");
+        System.out.println("Thank you for buying snacks!");
     }
 }
-  private void handleBuySnacks(Scanner scanner) {
-      System.out.println("Snack purchase feature selected.");
-      System.out.println("Thank you for buying snacks!");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
