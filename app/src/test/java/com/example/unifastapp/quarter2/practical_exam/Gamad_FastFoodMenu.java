@@ -47,10 +47,10 @@ public class Gamad_FastFoodMenu {
 
             switch (mainChoice) {
                 case 1:
-                    handleBurgerOrder(scanner);
+                    BurgerOrder(scanner);
                     break;
                 case 2:
-                    handleFriesOrder();
+                    FriesOrder();
                     break;
                 case 3:
                     System.out.println("Exiting fast food menu. Thank you!");
@@ -63,7 +63,7 @@ public class Gamad_FastFoodMenu {
         }
     }
     //routing
-    private void handleBurgerOrder(Scanner scanner) {
+    private void BurgerOrder(Scanner scanner) {
         System.out.println("\n--- Burger Menu ---");
         System.out.println("Choose burger option: ");
         System.out.println("1. Combo (Upgraded)");
@@ -81,7 +81,7 @@ public class Gamad_FastFoodMenu {
             }
         }
     }
-    private void handleFriesOrder() {
+    private void FriesOrder() {
         System.out.println("\nYou ordered Fries!");
     }
 }
