@@ -1,45 +1,61 @@
 package com.example.unifastapp.quarter2.practical_exam;
 
-import org.junit.Test;
 import java.io.ByteArrayInputStream;
+import org.junit.Test;
 import java.util.Scanner;
 
 public class Miasco_LibraryKioskMenu {
-
-    // Kiosk application method
-    public void startKiosk(Scanner scanner) {
-        System.out.println("--- LIBRARY KIOSK STARTED ---");
-        while (scanner.hasNextLine()) {
-            String input = scanner.nextLine();
-            System.out.println("Processing selection: " + input);
-        }
-        System.out.println("--- KIOSK SESSION COMPLETED ---");
-    }
-
     @Test
-    public void testKioskWorkflow() {
-        StringBuilder simulatedInputs = new StringBuilder();
+        public void start() {
+            Scanner scanner = new Scanner(System.in);
 
-        System.out.println("=== INITIALIZING KIOSK SIMULATION ===");
+            int choice;
 
-// Option 1: Search for a book title
-        simulatedInputs.append("1\n");
-        simulatedInputs.append("Java Programming\n");
+            do {
+                System.out.println("===== LIBRARY KIOSK =====");
+                System.out.println("1. Borrow a Book");
+                System.out.println("2. Return a Book");
+                System.out.println("3. Search for a Book");
+                System.out.println("4. Exit");
+                System.out.print("Enter your choice: ");
 
-// Option 2: Reserve a book
-        simulatedInputs.append("2\n");
-        simulatedInputs.append("BK-104\n");
+                choice = scanner.nextInt();
 
-// Option 3: Exit
-        simulatedInputs.append("3\n");
+                switch (choice) {
+                    case 1:
+                        borrowBook();
+                        break;
 
-        System.out.println("=== SIMULATION INPUTS READY ===\n");
+                    case 2:
+                        returnBook();
+                        break;
 
-// Convert inputs to InputStream for Scanner
-        ByteArrayInputStream testInput = new ByteArrayInputStream(simulatedInputs.toString().getBytes());
-        Scanner scanner = new Scanner(testInput);
+                    case 3:
+                        searchBook();
+                        break;
 
-// Execute kiosk with simulated inputs
-        startKiosk(scanner);
+                    case 4:
+                        System.out.println("Thank you for using the Library Kiosk!");
+                        break;
+
+                    default:
+                        System.out.println("Invalid choice.");
+                }
+
+            } while (choice != 4);
+
+            scanner.close();
+        }
+
+        private void borrowBook() {
+            System.out.println("--- BORROW BOOK ---");
+        }
+
+        private void returnBook() {
+            System.out.println("--- RETURN BOOK ---");
+        }
+
+        private void searchBook() {
+            System.out.println("--- SEARCH BOOK ---");
+        }
     }
-}
