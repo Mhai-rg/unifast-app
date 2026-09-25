@@ -2,7 +2,7 @@ package com.example.unifastapp.quarter2;
 
 import org.junit.Test;
 
-public class Miasco_MiniPeta_1 {
+public class Miasco_MiniPeta1 {
     @Test
     public void printMyProfile() {
 
