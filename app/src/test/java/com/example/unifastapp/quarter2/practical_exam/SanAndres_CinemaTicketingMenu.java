@@ -25,7 +25,7 @@ public class SanAndres_CinemaTicketingMenu {
         Scanner scanner = new Scanner(inputStream);
 
         // Instantiaties class and calls main menu loop
-        SanAndres_CinemaTicketingMenu CinemaTicketingSystem = SanAndres_CinemaTicketingMenu();
+        SanAndres_CinemaTicketingMenu CinemaTicketingSystem =  new SanAndres_CinemaTicketingMenu();
         CinemaTicketingSystem.start(scanner);
     }
 
@@ -43,14 +43,14 @@ public class SanAndres_CinemaTicketingMenu {
                 break;
             }
 
-            int msinChoice = scanner.nextInt();
+            int mainChoice = scanner.nextInt();
 
             switch (mainChoice) {
                 case 1:
                     handleBuyTicket(scanner);
                     break;
                 case 2:
-                    handleBuySnacks(scanner);
+                    handleBuySnacks();
                     break;
                 case 3:
                     System.out.println("Exiting system...");
@@ -62,7 +62,7 @@ public class SanAndres_CinemaTicketingMenu {
         }
         scanner.close();
     }
-
+    //routing
     private void handleBuyTicket(Scanner scanner) {
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
@@ -74,8 +74,7 @@ public class SanAndres_CinemaTicketingMenu {
             System.out.println("Access Denied — Age must be 18 or older.");
         }
     }
-
-    private void handleBuySnacks(Scanner scanner) {
+    private void handleBuySnacks() {
         System.out.println("Snack purchase feature selected.");
         System.out.println("Thank you for buying snacks!");
     }
