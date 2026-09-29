@@ -25,74 +25,76 @@ public class Montilano_GymAccessTest {
 
         // Instantiates class and calls main menu loop
         Montilano_GymAccessTest gymSystem = new Montilano_GymAccessTest();
+
         gymSystem.start(scanner);
+
     }
-}
 
-public void start(Scanner scanner) {
+    public void start(Scanner scanner) {
 
-    boolean running = true;
+        boolean running = true;
 
-    while (running) {
+        while (running) {
 
-        System.out.println("=== GYM ACCESS SYSTEM ===");
-        System.out.println("1. Enter Gym");
-        System.out.println("2. Hire Trainer");
-        System.out.println("3. Exit");
-        System.out.print("Enter choice: ");
+            System.out.println("=== GYM ACCESS SYSTEM ===");
+            System.out.println("1. Enter Gym");
+            System.out.println("2. Hire Trainer");
+            System.out.println("3. Exit");
+            System.out.print("Enter choice: ");
 
-        int choice = scanner.nextInt();
+            int choice = scanner.nextInt();
 
-        switch (choice) {
+            switch (choice) {
 
-            case 1:
-                enterGym();
-                break;
+                case 1:
+                    enterGym();
+                    break;
 
-            case 2:
-                hireTrainer(scanner);
-                break;
+                case 2:
+                    hireTrainer(scanner);
+                    break;
 
-            case 3:
-                System.out.println("Exiting system...");
-                running = false;
-                break;
+                case 3:
+                    System.out.println("Exiting system...");
+                    running = false;
+                    break;
 
-            default:
-                System.out.println("Invalid choice.");
+                default:
+                    System.out.println("Invalid choice.");
+
+            }
 
         }
+    }
 
+    private void enterGym() {
+
+        System.out.println("You entered the gym!");
+    }
+
+    private void hireTrainer(Scanner scanner) {
+
+        System.out.println("=== HIRE TRAINER ===");
+        System.out.println("1. VIP Membership");
+        System.out.println("2. Basic Membership");
+        System.out.print("Enter membership level: ");
+
+        int level = scanner.nextInt();
+
+        if (level == 1) {
+
+            System.out.println("Trainer Assigned");
+
+        } else if (level == 2) {
+
+            System.out.println("Upgrade Required");
+
+        } else {
+
+            System.out.println("Invalid membership level.");
+        }
     }
 }
-
-private void enterGym() {
-
-    System.out.println("You entered the gym!");
-}
-private void hireTrainer(Scanner scanner) {
-
-    System.out.println("=== HIRE TRAINER ===");
-    System.out.println("1. VIP Membership");
-    System.out.println("2. Basic Membership");
-    System.out.print("Enter membership level: ");
-
-    int level = scanner.nextInt();
-
-    if (level == 1) {
-
-        System.out.println("Trainer Assigned");
-
-    } else if (level == 2) {
-
-        System.out.println("Upgrade Required");
-
-    } else {
-
-        System.out.println("Invalid membership level.");
-    }
-}
-
 
 
 
