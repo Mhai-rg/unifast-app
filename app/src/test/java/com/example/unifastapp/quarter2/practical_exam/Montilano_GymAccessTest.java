@@ -91,7 +91,7 @@ private void hireTrainer(Scanner scanner) {
 
         System.out.println("Invalid membership level.");
     }
- }
+}
 
 
 
