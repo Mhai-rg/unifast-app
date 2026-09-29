@@ -41,6 +41,28 @@ public void start(Scanner scanner) {
         System.out.println("3. Exit");
         System.out.print("Enter choice: ");
 
+        int choice = scanner.nextInt();
+
+        switch (choice) {
+
+            case 1:
+                enterGym();
+                break;
+
+            case 2:
+                hireTrainer(scanner);
+                break;
+
+            case 3:
+                System.out.println("Exiting system...");
+                running = false;
+                break;
+
+            default:
+                System.out.println("Invalid choice.");
+
+        }
+
     }
 }
 
