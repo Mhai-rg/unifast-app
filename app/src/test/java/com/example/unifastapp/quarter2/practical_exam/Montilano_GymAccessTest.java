@@ -68,13 +68,32 @@ public void start(Scanner scanner) {
 
 private void enterGym() {
 
+    System.out.println("You entered the gym!");
 }
-
 private void hireTrainer(Scanner scanner) {
 
-}
+    System.out.println("=== HIRE TRAINER ===");
+    System.out.println("1. VIP Membership");
+    System.out.println("2. Basic Membership");
+    System.out.print("Enter membership level: ");
 
+    int level = scanner.nextInt();
+
+    if (level == 1) {
+
+        System.out.println("Trainer Assigned");
+
+    } else if (level == 2) {
+
+        System.out.println("Upgrade Required");
+
+    } else {
+
+        System.out.println("Invalid membership level.");
+    }
  }
+
+
 
 
 
