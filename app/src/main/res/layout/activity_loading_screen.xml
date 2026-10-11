@@ -7,4 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".LoadingScreen">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="1208dp"
+        android:layout_height="1904dp"
+        app:srcCompat="@mipmap/backroundofloadingscreen_foreground"
+        tools:layout_editor_absoluteX="-450dp"
+        tools:layout_editor_absoluteY="-469dp" />
+
+   b
 </androidx.constraintlayout.widget.ConstraintLayout>
