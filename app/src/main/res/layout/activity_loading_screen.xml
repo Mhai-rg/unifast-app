@@ -8,11 +8,20 @@
     tools:context=".LoadingScreen">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="1603dp"
-        android:layout_height="1825dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@mipmap/backround_foreground"
-        tools:layout_editor_absoluteY="-449dp" />
+        android:id="@+id/imageView3"
+        android:layout_width="1903dp"
+        android:layout_height="1899dp"
+        app:srcCompat="@mipmap/backroundofloadingscreen_foreground"
+        tools:layout_editor_absoluteX="-773dp"
+        tools:layout_editor_absoluteY="-451dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="494dp"
+        android:layout_height="837dp"
+        app:srcCompat="@mipmap/academylogo_foreground"
+        tools:layout_editor_absoluteX="-42dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
