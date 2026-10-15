@@ -8,10 +8,59 @@
     tools:context=".loginscreen">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="180dp"
-        android:layout_height="230dp"
+        android:id="@+id/imageView2"
+        android:layout_width="948dp"
+        android:layout_height="1517dp"
+        app:srcCompat="@mipmap/background_foreground"
+        tools:layout_editor_absoluteX="-288dp"
+        tools:layout_editor_absoluteY="-297dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="399dp"
+        android:layout_height="479dp"
         app:srcCompat="@mipmap/lunarislogodesign__foreground"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="100dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        app:srcCompat="@mipmap/academylogo_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/designlayout_foreground"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/designl_foreground"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+]]></androidx.constraintlayout.widget.ConstraintLayout>
