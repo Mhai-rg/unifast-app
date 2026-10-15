@@ -7,4 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".profilescreen">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1307dp"
+        android:layout_height="1578dp"
+        app:srcCompat="@mipmap/background_background"
+        tools:layout_editor_absoluteX="-578dp"
+        tools:layout_editor_absoluteY="-197dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

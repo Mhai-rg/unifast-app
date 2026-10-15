@@ -7,4 +7,68 @@
     android:layout_height="match_parent"
     tools:context=".receiptscreen">
 
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="1589dp"
+        android:layout_height="1609dp"
+        app:srcCompat="@mipmap/secondbackround_foreground"
+        tools:layout_editor_absoluteX="-589dp"
+        tools:layout_editor_absoluteY="-343dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="257dp"
+        android:layout_height="250dp"
+        app:srcCompat="@mipmap/lunarislogodesign__foreground"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="-32dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="68dp"
+        android:layout_height="87dp"
+        app:srcCompat="@mipmap/academylogo_foreground"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="470dp"
+        android:layout_height="779dp"
+        app:srcCompat="@mipmap/whitebackground_foreground"
+        tools:layout_editor_absoluteX="-30dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="977dp"
+        android:layout_height="1366dp"
+        app:srcCompat="@mipmap/beigedesign_foreground"
+        tools:layout_editor_absoluteX="-283dp"
+        tools:layout_editor_absoluteY="-666dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="326dp"
+        android:layout_height="374dp"
+        app:srcCompat="@mipmap/checkdesign_foreground"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="651dp"
+        android:layout_height="1077dp"
+        app:srcCompat="@mipmap/beigedesign_foreground"
+        tools:layout_editor_absoluteX="-179dp"
+        tools:layout_editor_absoluteY="-58dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="153dp"
+        android:layout_height="89dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="818dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
