@@ -7,4 +7,44 @@
     android:layout_height="match_parent"
     tools:context=".profilescreen">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1307dp"
+        android:layout_height="1578dp"
+        app:srcCompat="@mipmap/background_background"
+        tools:layout_editor_absoluteX="-554dp"
+        tools:layout_editor_absoluteY="-146dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="85dp"
+        android:layout_height="82dp"
+        app:srcCompat="@mipmap/academylogo_foreground"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="1084dp"
+        android:layout_height="1211dp"
+        app:srcCompat="@mipmap/profileframe_foreground"
+        tools:layout_editor_absoluteX="-304dp"
+        tools:layout_editor_absoluteY="-62dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="214dp"
+        android:layout_height="270dp"
+        app:srcCompat="@mipmap/profilepicture_foreground"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        app:srcCompat="@mipmap/background"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="16dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
