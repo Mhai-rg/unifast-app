@@ -11,17 +11,21 @@
         android:id="@+id/imageView11"
         android:layout_width="1589dp"
         android:layout_height="1609dp"
+        android:contentDescription="TODO"
         app:srcCompat="@mipmap/secondbackround_foreground"
         tools:layout_editor_absoluteX="-589dp"
-        tools:layout_editor_absoluteY="-343dp" />
+        tools:layout_editor_absoluteY="-343dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="257dp"
         android:layout_height="250dp"
+        android:contentDescription="TODO"
         app:srcCompat="@mipmap/lunarislogodesign__foreground"
         tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="-32dp" />
+        tools:layout_editor_absoluteY="-32dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView14"
@@ -29,7 +33,8 @@
         android:layout_height="87dp"
         app:srcCompat="@mipmap/academylogo_foreground"
         tools:layout_editor_absoluteX="-7dp"
-        tools:layout_editor_absoluteY="-6dp" />
+        tools:layout_editor_absoluteY="-6dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -65,10 +70,45 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="153dp"
-        android:layout_height="89dp"
-        android:text="Button"
+        android:layout_width="167dp"
+        android:layout_height="91dp"
+        android:text="Make another puchase"
         tools:layout_editor_absoluteX="129dp"
         tools:layout_editor_absoluteY="818dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="660dp"
+        android:layout_height="204dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Transaction Complete"
+        android:textSize="30dp"
+        android:translationX="35dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Receipt Number"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="N00067"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="294dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
