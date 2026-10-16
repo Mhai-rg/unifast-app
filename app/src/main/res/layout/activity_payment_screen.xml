@@ -8,22 +8,6 @@
     tools:context=".payment_screen">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="2843dp"
-        android:layout_height="2800dp"
-        app:srcCompat="@mipmap/background_background"
-        tools:layout_editor_absoluteX="-688dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="884dp"
-        android:layout_height="391dp"
-        app:srcCompat="@mipmap/schoollogo_foreground"
-        tools:layout_editor_absoluteX="-266dp"
-        tools:layout_editor_absoluteY="-32dp" />
-
-    <ImageView
         android:id="@+id/imageView16"
         android:layout_width="253dp"
         android:layout_height="256dp"
@@ -31,5 +15,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/background"
         tools:layout_editor_absoluteX="1164dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="1557dp"
+        android:layout_height="1216dp"
+        app:srcCompat="@mipmap/ic_launcher_background"
+        tools:layout_editor_absoluteX="-525dp"
+        tools:layout_editor_absoluteY="-203dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/schoollogo_foreground"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/background"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="20dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
