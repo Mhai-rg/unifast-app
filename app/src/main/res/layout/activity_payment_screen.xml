@@ -45,7 +45,7 @@
         android:layout_width="950dp"
         android:layout_height="750dp"
         app:srcCompat="@mipmap/box"
-        tools:layout_editor_absoluteX="-270dp"
+        tools:layout_editor_absoluteX="-250dp"
         tools:layout_editor_absoluteY="103dp" />
 
     <ImageView
@@ -95,5 +95,21 @@
         app:srcCompat="@android:drawable/button_onoff_indicator_off"
         tools:layout_editor_absoluteX="-95dp"
         tools:layout_editor_absoluteY="374dp" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="355dp"
+        android:layout_height="155dp"
+        app:srcCompat="@android:drawable/dialog_holo_dark_frame"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        tools:layout_editor_absoluteX="371dp"
+        tools:layout_editor_absoluteY="65dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
