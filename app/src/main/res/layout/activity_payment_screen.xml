@@ -110,6 +110,6 @@
         android:layout_height="100dp"
         app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
         tools:layout_editor_absoluteX="371dp"
-        tools:layout_editor_absoluteY="65dp" />
+        tools:layout_editor_absoluteY="68dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
