@@ -40,4 +40,20 @@
         tools:layout_editor_absoluteX="339dp"
         tools:layout_editor_absoluteY="20dp" />
 
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="950dp"
+        android:layout_height="750dp"
+        app:srcCompat="@mipmap/box"
+        tools:layout_editor_absoluteX="-290dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="500dp"
+        android:layout_height="370dp"
+        app:srcCompat="@mipmap/layout_foreground"
+        tools:layout_editor_absoluteX="-45dp"
+        tools:layout_editor_absoluteY="-55dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
