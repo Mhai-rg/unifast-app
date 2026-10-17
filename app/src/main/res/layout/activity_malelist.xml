@@ -35,14 +35,6 @@
         tools:layout_editor_absoluteY="25dp" />
 
     <ImageView
-        android:id="@+id/imageView55"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/applogoingreetingsscreen_foreground"
-        tools:layout_editor_absoluteX="-11dp"
-        tools:layout_editor_absoluteY="-9dp" />
-
-    <ImageView
         android:id="@+id/imageView56"
         android:layout_width="1100dp"
         android:layout_height="1156dp"
@@ -177,5 +169,13 @@
         app:srcCompat="@mipmap/pants_male_foreground"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="120dp" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/academylogo_foreground"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
