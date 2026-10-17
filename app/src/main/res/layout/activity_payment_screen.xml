@@ -115,9 +115,17 @@
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="323dp"
-        android:layout_height="367dp"
+        android:layout_height="295dp"
         app:srcCompat="@mipmap/cash_foreground"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="323dp"
+        android:layout_height="90dp"
+        app:srcCompat="@mipmap/c_round"
+        tools:layout_editor_absoluteX="-64dp"
+        tools:layout_editor_absoluteY="211dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
