@@ -29,14 +29,20 @@
         android:layout_height="304dp"
         app:srcCompat="@mipmap/design_foreground"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-85dp" />
+        tools:layout_editor_absoluteY="-88dp" />
 
     <TextView
-        android:id="@+id/GreetingsMhai"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#e1bbcb" />
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="18dp" />
+        android:id="@+id/textView"
+        android:layout_width="247dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:text="Welcome, Mhai!"
+        android:textColor="#e1bbcb"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
