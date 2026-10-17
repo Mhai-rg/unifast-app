@@ -12,8 +12,8 @@
         android:layout_width="2046dp"
         android:layout_height="1611dp"
         app:srcCompat="@mipmap/backroundofgreetingsscreen_foreground"
-        tools:layout_editor_absoluteX="-727dp"
-        tools:layout_editor_absoluteY="-332dp" />
+        tools:layout_editor_absoluteX="-724dp"
+        tools:layout_editor_absoluteY="-331dp" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -53,12 +53,12 @@
 
     <ImageView
         android:id="@+id/imageView28"
-        android:layout_width="626dp"
-        android:layout_height="608dp"
+        android:layout_width="657dp"
+        android:layout_height="550dp"
         android:alpha="0.8"
         app:srcCompat="@mipmap/gradientbox_foreground"
-        tools:layout_editor_absoluteX="-101dp"
-        tools:layout_editor_absoluteY="427dp" />
+        tools:layout_editor_absoluteX="-145dp"
+        tools:layout_editor_absoluteY="425dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -98,23 +98,33 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="250dp"
+        android:layout_width="255dp"
         android:layout_height="250dp"
         android:fontFamily="sans-serif-medium"
         android:text="UniFast is the official uniform ordering application of Lunaris Academy. It is designed to simplify the "
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="567dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="552dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="370dp"
+        android:layout_width="345dp"
         android:layout_height="250dp"
         android:fontFamily="sans-serif-medium"
         android:text="process of purchasing school uniforms by providing an organized catalog, detailed product information, and a seamless ordering experience. Our goal is to make obtaining official school attire faster, more convenient, and accessible for every student."
-        android:textSize="22sp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="688dp" />
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#272947"
+        android:text="Make a Purchase"
+        android:textColor="#e1bbcb"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="870dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
