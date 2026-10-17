@@ -121,6 +121,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#272947"
+        android:alpha="0.8"
         android:text="Make a Purchase"
         android:textColor="#e1bbcb"
         tools:layout_editor_absoluteX="103dp"
