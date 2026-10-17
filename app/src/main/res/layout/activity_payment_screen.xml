@@ -40,4 +40,92 @@
         tools:layout_editor_absoluteX="339dp"
         tools:layout_editor_absoluteY="20dp" />
 
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="950dp"
+        android:layout_height="750dp"
+        app:srcCompat="@mipmap/box"
+        tools:layout_editor_absoluteX="-250dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        app:srcCompat="@android:drawable/button_onoff_indicator_off"
+        tools:layout_editor_absoluteX="-94dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        app:srcCompat="@android:drawable/button_onoff_indicator_off"
+        tools:layout_editor_absoluteX="-93dp"
+        tools:layout_editor_absoluteY="595dp" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        app:srcCompat="@android:drawable/button_onoff_indicator_off"
+        tools:layout_editor_absoluteX="-94dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        app:srcCompat="@android:drawable/button_onoff_indicator_off"
+        tools:layout_editor_absoluteX="-95dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        app:srcCompat="@mipmap/layout_foreground"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="-74dp" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        app:srcCompat="@android:drawable/button_onoff_indicator_off"
+        tools:layout_editor_absoluteX="-95dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="355dp"
+        android:layout_height="155dp"
+        app:srcCompat="@android:drawable/dialog_holo_dark_frame"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        tools:layout_editor_absoluteX="371dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="323dp"
+        android:layout_height="295dp"
+        app:srcCompat="@mipmap/cash_foreground"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="323dp"
+        android:layout_height="90dp"
+        app:srcCompat="@mipmap/c_round"
+        tools:layout_editor_absoluteX="-64dp"
+        tools:layout_editor_absoluteY="211dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
