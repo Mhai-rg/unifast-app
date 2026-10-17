@@ -23,6 +23,21 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".female_list"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".male_list"
+            android:exported="false"
+            android:theme="@style/Theme.UnifastApp"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".malelist"
+            android:exported="false"
+            android:theme="@style/Theme.UnifastApp"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
