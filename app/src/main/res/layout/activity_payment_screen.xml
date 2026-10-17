@@ -112,4 +112,12 @@
         tools:layout_editor_absoluteX="371dp"
         tools:layout_editor_absoluteY="68dp" />
 
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="323dp"
+        android:layout_height="367dp"
+        app:srcCompat="@mipmap/cash_foreground"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="16dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
