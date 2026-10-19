@@ -21,28 +21,31 @@
         android:id="@+id/imageView13"
         android:layout_width="257dp"
         android:layout_height="250dp"
-        android:contentDescription="TODO"
+        android:contentDescription="Lunaris logo"
         app:srcCompat="@mipmap/lunarislogodesign__foreground"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="-32dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="68dp"
         android:layout_height="87dp"
+        android:contentDescription="Academy logo"
         app:srcCompat="@mipmap/academylogo_foreground"
-        tools:layout_editor_absoluteX="-7dp"
-        tools:layout_editor_absoluteY="-6dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="470dp"
         android:layout_height="779dp"
         app:srcCompat="@mipmap/whitebackground_foreground"
-        tools:layout_editor_absoluteX="-30dp"
-        tools:layout_editor_absoluteY="49dp" />
+        android:translationY="49dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -50,31 +53,38 @@
         android:layout_height="1366dp"
         app:srcCompat="@mipmap/beigedesign_foreground"
         tools:layout_editor_absoluteX="-283dp"
-        tools:layout_editor_absoluteY="-666dp" />
+        tools:layout_editor_absoluteY="-666dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="326dp"
         android:layout_height="374dp"
         app:srcCompat="@mipmap/checkdesign_foreground"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="103dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:translationY="103dp" />
+
 
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="651dp"
         android:layout_height="1077dp"
         app:srcCompat="@mipmap/beigedesign_foreground"
-        tools:layout_editor_absoluteX="-179dp"
-        tools:layout_editor_absoluteY="-58dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-190dp"
+        tools:layout_editor_absoluteY="-117dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="167dp"
         android:layout_height="91dp"
-        android:text="Make another puchase"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="818dp" />
+        android:text="Make another purchase"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="816dp" />
 
     <EditText
         android:id="@+id/editTextText"
@@ -83,10 +93,11 @@
         android:ems="10"
         android:inputType="text"
         android:text="Transaction Complete"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:translationX="35dp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="151dp" />
+        tools:layout_editor_absoluteY="151dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextText2"
@@ -94,10 +105,11 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Receipt Number"
-        android:textSize="15dp"
+        android:text="Receipt Number:"
+        android:textSize="15sp"
         tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="294dp" />
+        tools:layout_editor_absoluteY="294dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextText3"
@@ -106,9 +118,212 @@
         android:ems="10"
         android:inputType="text"
         android:text="N00067"
-        android:textSize="15dp"
+        android:textSize="15sp"
         tools:layout_editor_absoluteX="323dp"
         tools:layout_editor_absoluteY="294dp"
         tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Receipt Date:"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="10/19/26"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Customer Name:"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Jazz Montilano"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Item Name:"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <EditText
+        android:id="@+id/editTextText15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Uniform"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <EditText
+        android:id="@+id/editTextText16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Quantity:"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <EditText
+        android:id="@+id/editTextText17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="2pcs"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <EditText
+        android:id="@+id/editTextText18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Total Amount:"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <EditText
+        android:id="@+id/editTextText19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Unit price:"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <EditText
+        android:id="@+id/editTextText20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Payment Amount:"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <EditText
+        android:id="@+id/editTextText21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="567.00"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="382dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="1134.00"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="423dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="1134.00"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="441dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Processing information"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="555dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText26"
+        android:layout_width="189dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Your order is being process"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="590dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="THANK YOU!!!"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="713dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
