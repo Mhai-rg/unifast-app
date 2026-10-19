@@ -313,7 +313,7 @@
         android:inputType="text"
         android:text="Your order is being process"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="590dp"
         tools:ignore="MissingConstraints" />
 
