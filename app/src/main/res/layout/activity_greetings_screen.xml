@@ -13,7 +13,7 @@
         android:layout_height="1611dp"
         app:srcCompat="@mipmap/backroundofgreetingsscreen_foreground"
         tools:layout_editor_absoluteX="-724dp"
-        tools:layout_editor_absoluteY="-331dp" />
+        tools:layout_editor_absoluteY="-330dp" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -67,6 +67,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="At Lunaris Academy, we are committed to fostering excellence, integrity, and lifelong learning. Our school provides a supportive environment"
         android:textSize="20sp"
+        android:textColor="#000"
         tools:layout_editor_absoluteX="180dp"
         tools:layout_editor_absoluteY="108dp" />
 
@@ -92,9 +93,10 @@
         android:layout_height="250dp"
         android:fontFamily="sans-serif-medium"
         android:text="where students are encouraged to grow academically, develop strong character, and prepare for a bright future. Through this platform, we strive to make school services more accessible and convenient for every student."
-        android:textSize="20sp"
+        android:textSize="21sp"
+        android:textColor="#000"
         tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="283dp" />
+        tools:layout_editor_absoluteY="270dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -102,29 +104,31 @@
         android:layout_height="250dp"
         android:fontFamily="sans-serif-medium"
         android:text="UniFast is the official uniform ordering application of Lunaris Academy. It is designed to simplify the "
+        android:textColor="#000"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="552dp" />
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="551dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="345dp"
-        android:layout_height="250dp"
+        android:layout_width="337dp"
+        android:layout_height="222dp"
         android:fontFamily="sans-serif-medium"
         android:text="process of purchasing school uniforms by providing an organized catalog, detailed product information, and a seamless ordering experience. Our goal is to make obtaining official school attire faster, more convenient, and accessible for every student."
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="677dp" />
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="670dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#272947"
         android:alpha="0.8"
+        android:backgroundTint="#272947"
         android:text="Make a Purchase"
         android:textColor="#e1bbcb"
-        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteX="120dp"
         tools:layout_editor_absoluteY="870dp" />
 
 
