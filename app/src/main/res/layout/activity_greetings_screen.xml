@@ -67,6 +67,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="At Lunaris Academy, we are committed to fostering excellence, integrity, and lifelong learning. Our school provides a supportive environment"
         android:textSize="20sp"
+        android:textColor="#000"
         tools:layout_editor_absoluteX="180dp"
         tools:layout_editor_absoluteY="108dp" />
 
@@ -93,6 +94,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="where students are encouraged to grow academically, develop strong character, and prepare for a bright future. Through this platform, we strive to make school services more accessible and convenient for every student."
         android:textSize="20sp"
+        android:textColor="#000"
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="283dp" />
 
@@ -103,6 +105,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="UniFast is the official uniform ordering application of Lunaris Academy. It is designed to simplify the "
         android:textSize="20sp"
+        android:textColor="#000"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="552dp" />
 
@@ -113,6 +116,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="process of purchasing school uniforms by providing an organized catalog, detailed product information, and a seamless ordering experience. Our goal is to make obtaining official school attire faster, more convenient, and accessible for every student."
         android:textSize="20sp"
+        android:textColor="#000"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="677dp" />
 
@@ -120,11 +124,11 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#272947"
         android:alpha="0.8"
+        android:backgroundTint="#272947"
         android:text="Make a Purchase"
         android:textColor="#e1bbcb"
-        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="870dp" />
 
 
