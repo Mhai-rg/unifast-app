@@ -228,8 +228,8 @@
         android:layout_height="wrap_content"
         android:text="Expiration date*"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="520dp" />
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="595dp" />
 
     <TextView
         android:id="@+id/textView25"
@@ -237,8 +237,8 @@
         android:layout_height="wrap_content"
         android:text="Card Number*"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="595dp" />
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="520dp" />
 
     <TextView
         android:id="@+id/textView24"
