@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profilescreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1307dp"
+        android:layout_height="1578dp"
+        app:srcCompat="@mipmap/background_background"
+        tools:layout_editor_absoluteX="-554dp"
+        tools:layout_editor_absoluteY="-146dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="85dp"
+        android:layout_height="82dp"
+        app:srcCompat="@mipmap/academylogo_foreground"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        app:srcCompat="@mipmap/background"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="382dp"
+        android:layout_height="444dp"
+        app:srcCompat="@mipmap/box"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="68dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="958dp"
+        android:layout_height="841dp"
+        app:srcCompat="@mipmap/profileframe_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-246dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="173dp"
+        android:layout_height="188dp"
+        app:srcCompat="@mipmap/profilepicture_foreground"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="68dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText13"
+        android:layout_width="286dp"
+        android:layout_height="96dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Jazz Daniel Montilano"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <EditText
+        android:id="@+id/editTextText25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Male"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        app:srcCompat="@mipmap/whitebackground_round"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="184dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView74"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        app:srcCompat="@mipmap/cameralogo_foreground"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="187dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="401dp"
+        android:layout_height="819dp"
+        app:srcCompat="@mipmap/blackbutton_foreground"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="-30dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView76"
+        android:layout_width="404dp"
+        android:layout_height="846dp"
+        app:srcCompat="@mipmap/blackbutton_foreground"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="28dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Edit Profile"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="319dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Share Profile"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView79"
+        android:layout_width="641dp"
+        android:layout_height="735dp"
+        app:srcCompat="@mipmap/multiplegraybutton_foreground"
+        tools:layout_editor_absoluteX="-115dp"
+        tools:layout_editor_absoluteY="417dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Settings"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="493dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:text="Privacy"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="547dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Messages"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="603dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Theme"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="655dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Order"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="709dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Cart"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="763dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="262dp"
+        android:layout_height="169dp"
+        app:srcCompat="@mipmap/box"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="822dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView82"
+        android:layout_width="226dp"
+        android:layout_height="163dp"
+        app:srcCompat="@mipmap/box"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="822dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Order points"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="848dp" />
+
+    <EditText
+        android:id="@+id/editTextText38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Discount"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="848dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

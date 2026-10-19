@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemLists">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GreetingsScreen">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="2046dp"
+            android:layout_height="1611dp"
+            app:srcCompat="@mipmap/backroundofgreetingsscreen_foreground"
+            tools:layout_editor_absoluteX="-724dp"
+            tools:layout_editor_absoluteY="-331dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/profilepicture_foreground"
+            tools:layout_editor_absoluteX="-6dp"
+            tools:layout_editor_absoluteY="-1dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="333dp"
+            android:layout_height="304dp"
+            app:srcCompat="@mipmap/design_foreground"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="-88dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="247dp"
+            android:layout_height="51dp"
+            android:fontFamily="@font/akaya_kanadaka"
+            android:text="Welcome, Mhai!"
+            android:textColor="#e1bbcb"
+            android:textSize="32sp"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="1155dp"
+            android:layout_height="1919dp"
+            app:srcCompat="@mipmap/transparentbackround_foreground"
+            tools:layout_editor_absoluteX="-362dp"
+            tools:layout_editor_absoluteY="-439dp" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="537dp"
+            android:layout_height="467dp"
+            app:srcCompat="@mipmap/femaleuniform_foreground"
+            tools:layout_editor_absoluteX="-43dp"
+            tools:layout_editor_absoluteY="123dp" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="847dp"
+            android:layout_height="402dp"
+            app:srcCompat="@mipmap/maleuniform_foreground"
+            tools:layout_editor_absoluteX="-218dp"
+            tools:layout_editor_absoluteY="549dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:backgroundTint="#272947"
+            android:fontFamily="sans-serif-black"
+            android:text="FEMALE"
+            android:textColor="#e1bbcb"
+            android:textSize="39sp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:backgroundTint="#272947"
+            android:fontFamily="sans-serif-black"
+            android:text="MALE"
+            android:textColor="#94b9ff"
+            android:textSize="39sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="549dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="247dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:text="Welcome, Mhai!"
+        android:textColor="#e1bbcb"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
