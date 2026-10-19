@@ -12,8 +12,8 @@
         android:layout_width="1679dp"
         android:layout_height="1589dp"
         app:srcCompat="@mipmap/secondbackround_foreground"
-        tools:layout_editor_absoluteX="-612dp"
-        tools:layout_editor_absoluteY="-333dp" />
+        tools:layout_editor_absoluteX="-781dp"
+        tools:layout_editor_absoluteY="-150dp" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -28,8 +28,8 @@
         android:layout_width="333dp"
         android:layout_height="304dp"
         app:srcCompat="@mipmap/design_foreground"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-85dp" />
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="78dp" />
 
     <TextView
         android:id="@+id/GreetingsMhai"
