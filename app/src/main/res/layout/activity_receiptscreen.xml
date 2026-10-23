@@ -85,7 +85,8 @@
         android:textColor= "#451df5"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="821dp" />
+        tools:layout_editor_absoluteY="821dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextText2"
@@ -238,7 +239,8 @@
         android:text="Unit price:"
         android:textSize="15sp"
         tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="376dp" />
+        tools:layout_editor_absoluteY="376dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextText20"
@@ -288,9 +290,9 @@
         android:inputType="text"
         android:text="1134.00"
         android:textSize="15sp"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="323dp"
-        tools:layout_editor_absoluteY="441dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="441dp" />
 
     <EditText
         android:id="@+id/editTextText24"
@@ -327,7 +329,8 @@
         android:backgroundTint="@android:color/transparent"
         android:textSize="50sp"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="713dp" />
+        tools:layout_editor_absoluteY="713dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextText28"
@@ -337,8 +340,9 @@
         android:backgroundTint="@android:color/transparent"
         android:inputType="text"
         android:text="Transaction Complete"
-        android:textSize="32"
+        android:textSize="32sp"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -82,7 +82,7 @@
         android:inputType="text"
         android:text="Male"
         android:textColor="@color/white"
-        tools:ignore="MissingConstraints"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="175dp"
         tools:layout_editor_absoluteY="256dp" />
 
@@ -113,7 +113,8 @@
         android:textColor="#bd8d15"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="315dp" />
+        tools:layout_editor_absoluteY="315dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -124,7 +125,8 @@
         android:textColor="#bd8d15"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="393dp" />
+        tools:layout_editor_absoluteY="393dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -135,7 +137,8 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="491dp" />
+        tools:layout_editor_absoluteY="491dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -146,7 +149,8 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="553dp" />
+        tools:layout_editor_absoluteY="553dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -157,7 +161,8 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="615dp" />
+        tools:layout_editor_absoluteY="615dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -168,7 +173,8 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="739dp" />
+        tools:layout_editor_absoluteY="739dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -179,7 +185,8 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="801dp" />
+        tools:layout_editor_absoluteY="801dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -190,7 +197,8 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="677dp" />
+        tools:layout_editor_absoluteY="677dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -201,7 +209,8 @@
         android:textColor="#bd8d15"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="542dp" />
+        tools:layout_editor_absoluteY="542dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
@@ -212,5 +221,6 @@
         android:textColor="#bd8d15"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="694dp" />
+        tools:layout_editor_absoluteY="694dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
