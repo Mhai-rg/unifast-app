@@ -44,6 +44,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+
         android:id="@+id/imageView19"
         android:layout_width="267dp"
         android:layout_height="357dp"
@@ -57,9 +58,9 @@
         android:layout_width="267dp"
         android:layout_height="158dp"
         app:srcCompat="@android:drawable/button_onoff_indicator_off"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="350dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="352dp" />
 
     <ImageView
         android:id="@+id/imageView23"

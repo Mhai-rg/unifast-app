@@ -8,6 +8,14 @@
     tools:context=".example_purchase">
 
     <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="333dp"
+        android:layout_height="304dp"
+        app:srcCompat="@mipmap/design_foreground"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-88dp" />
+
+    <ImageView
         android:id="@+id/imageView55"
         android:layout_width="1765dp"
         android:layout_height="1570dp"
@@ -25,14 +33,6 @@
         android:textSize="32sp"
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="25dp" />
-
-    <ImageView
-        android:id="@+id/imageView62"
-        android:layout_width="333dp"
-        android:layout_height="304dp"
-        app:srcCompat="@mipmap/design_foreground"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="-53dp" />
 
     <ImageView
         android:id="@+id/imageView64"
