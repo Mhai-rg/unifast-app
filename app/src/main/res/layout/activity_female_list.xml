@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".female_list">
 
-    <!-- Background -->
+    <!-- BACKGROUND -->
     <ImageView
         android:id="@+id/imageView38"
         android:layout_width="0dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/screen_background_dark" />
 
-    <!-- Section Title -->
+    <!-- TEXT -->
     <TextView
         android:id="@+id/welcomeMessage4"
         android:layout_width="247dp"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Top Label -->
+    <!-- ITEM LABELS -->
     <TextView
         android:id="@+id/femaleLabelTop"
         android:layout_width="100dp"
@@ -48,7 +48,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- P.E. Shirt Label -->
     <TextView
         android:id="@+id/femaleLabelPeShirt"
         android:layout_width="300dp"
@@ -62,7 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Skirt Label -->
     <TextView
         android:id="@+id/femaleLabelSkirt"
         android:layout_width="200dp"
@@ -76,7 +74,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- P.E. Pants Label -->
     <TextView
         android:id="@+id/femaleLabelPePants"
         android:layout_width="300dp"
@@ -90,7 +87,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Top Divider -->
+    <!-- DIVIDERS -->
     <View
         android:id="@+id/topDivider4"
         android:layout_width="190dp"
@@ -101,7 +98,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Middle Divider -->
     <View
         android:id="@+id/middleDivider2"
         android:layout_width="0dp"
@@ -114,7 +110,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Logo -->
+    <!-- LOGO -->
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="139dp"
@@ -123,7 +119,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Box 1 -->
+    <!-- BOXES -->
     <View
         android:id="@+id/grayBox1"
         android:layout_width="180dp"
@@ -134,7 +130,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Box 3 -->
     <View
         android:id="@+id/grayBox3"
         android:layout_width="180dp"
@@ -145,7 +140,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Box 2 -->
     <View
         android:id="@+id/grayBox2"
         android:layout_width="180dp"
@@ -156,7 +150,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Box 4 -->
     <View
         android:id="@+id/grayBox4"
         android:layout_width="180dp"
@@ -167,7 +160,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Female Top Image -->
+    <!-- IMAGE -->
     <ImageView
         android:id="@+id/imageView50"
         android:layout_width="294dp"
@@ -179,7 +172,6 @@
         app:layout_constraintStart_toStartOf="@id/grayBox1"
         app:layout_constraintEnd_toEndOf="@id/grayBox1" />
 
-    <!-- Female Skirt Image -->
     <ImageView
         android:id="@+id/imageView49"
         android:layout_width="284dp"
@@ -191,7 +183,6 @@
         app:layout_constraintStart_toStartOf="@id/grayBox2"
         app:layout_constraintEnd_toEndOf="@id/grayBox2" />
 
-    <!-- Female P.E. Shirt Image -->
     <ImageView
         android:id="@+id/imageView42"
         android:layout_width="304dp"
@@ -203,7 +194,6 @@
         app:layout_constraintStart_toStartOf="@id/grayBox3"
         app:layout_constraintEnd_toEndOf="@id/grayBox3" />
 
-    <!-- Female P.E. Pants Image -->
     <ImageView
         android:id="@+id/imageView41"
         android:layout_width="338dp"
@@ -215,7 +205,7 @@
         app:layout_constraintStart_toStartOf="@id/grayBox4"
         app:layout_constraintEnd_toEndOf="@id/grayBox4" />
 
-    <!-- Purchase Top -->
+    <!-- PURCHASE BUTTONS -->
     <Button
         android:id="@+id/buttonPurchaseTop"
         android:layout_width="wrap_content"
@@ -230,7 +220,6 @@
         app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Purchase P.E. Shirt -->
     <Button
         android:id="@+id/buttonPurchasePeShirt"
         android:layout_width="wrap_content"
@@ -245,7 +234,6 @@
         app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Purchase Skirt -->
     <Button
         android:id="@+id/buttonPurchaseSkirt"
         android:layout_width="wrap_content"
@@ -260,7 +248,6 @@
         app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Purchase P.E. Pants -->
     <Button
         android:id="@+id/buttonPurchasePePants"
         android:layout_width="wrap_content"
@@ -275,7 +262,7 @@
         app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Back Button -->
+    <!-- BACK BUTTON -->
     <Button
         android:id="@+id/buttonBackItemList"
         android:layout_width="wrap_content"
@@ -288,5 +275,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,7 +20,12 @@ public class ItemLists extends AppCompatActivity {
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            v.setPadding(
+                    systemBars.left,
+                    systemBars.top,
+                    systemBars.right,
+                    systemBars.bottom
+            );
             return insets;
         });
 
@@ -31,6 +36,22 @@ public class ItemLists extends AppCompatActivity {
             Intent intent = new Intent(ItemLists.this, GreetingsScreen.class);
             startActivity(intent);
             finish();
+        });
+
+        // Female List
+        Button femaleButton = findViewById(R.id.femaleButton);
+
+        femaleButton.setOnClickListener(v -> {
+            Intent intent = new Intent(ItemLists.this, female_list.class);
+            startActivity(intent);
+        });
+
+        // Male List
+        Button maleButton = findViewById(R.id.maleButton);
+
+        maleButton.setOnClickListener(v -> {
+            Intent intent = new Intent(ItemLists.this, malelist.class);
+            startActivity(intent);
         });
     }
 }

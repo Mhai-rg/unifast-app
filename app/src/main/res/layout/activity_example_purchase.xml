@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".example_purchase">
 
+    <!-- BACKGROUND -->
     <ImageView
         android:id="@+id/imageView40"
         android:layout_width="0dp"
@@ -19,6 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- TITLE -->
     <TextView
         android:id="@+id/welcomeMessage5"
         android:layout_width="247dp"
@@ -32,6 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- DIVIDER -->
     <View
         android:id="@+id/topDivider4"
         android:layout_width="120dp"
@@ -42,6 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- LOGO -->
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="139dp"
@@ -50,6 +54,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- BOX -->
     <View
         android:id="@+id/grayWhiteBox2"
         android:layout_width="311dp"
@@ -63,6 +68,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- PURCHASE ITEM -->
     <ImageView
         android:id="@+id/imageView51"
         android:layout_width="501dp"
@@ -74,6 +80,7 @@
         app:layout_constraintStart_toStartOf="@id/grayWhiteBox2"
         app:layout_constraintEnd_toEndOf="@id/grayWhiteBox2" />
 
+    <!-- ITEM PRICE -->
     <TextView
         android:id="@+id/welcomeMessage3"
         android:layout_width="300dp"
@@ -87,6 +94,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- PURCHASE BUTTON -->
     <Button
         android:id="@+id/buttonInItemList3"
         android:layout_width="200dp"
@@ -102,6 +110,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- BACK BUTTON -->
     <Button
         android:id="@+id/buttonBackPurchase"
         android:layout_width="wrap_content"
@@ -114,5 +123,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,9 +6,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MaleList">
+    tools:context=".malelist">
 
-    <!-- Background -->
+    <!-- BACKGROUND -->
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="0dp"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Section Title -->
+    <!-- Text -->
     <TextView
         android:id="@+id/welcomeMessage3"
         android:layout_width="247dp"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Top Label -->
+    <!-- ITEM LABELS -->
     <TextView
         android:id="@+id/labelTop"
         android:layout_width="100dp"
@@ -48,7 +48,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- P.E. Shirt Label -->
     <TextView
         android:id="@+id/labelPeShirt"
         android:layout_width="300dp"
@@ -62,7 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Pants Label -->
     <TextView
         android:id="@+id/labelPants"
         android:layout_width="200dp"
@@ -76,7 +74,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- P.E. Pants Label -->
     <TextView
         android:id="@+id/labelPePants"
         android:layout_width="300dp"
@@ -90,7 +87,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Top Divider -->
+    <!-- DIVIDERS -->
     <View
         android:id="@+id/topDivider4"
         android:layout_width="170dp"
@@ -101,16 +98,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Logo -->
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="139dp"
-        android:layout_height="132dp"
-        app:srcCompat="@mipmap/applogoingreetingsscreen_foreground"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <!-- Middle Divider -->
     <View
         android:id="@+id/middleDivider2"
         android:layout_width="0dp"
@@ -123,7 +110,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Uniform Box 1 -->
+    <!-- LOGO -->
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="139dp"
+        android:layout_height="132dp"
+        app:srcCompat="@mipmap/applogoingreetingsscreen_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- BOXES -->
     <View
         android:id="@+id/grayBox1"
         android:layout_width="180dp"
@@ -134,7 +130,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Uniform Box 3 -->
     <View
         android:id="@+id/grayBox3"
         android:layout_width="180dp"
@@ -145,7 +140,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Uniform Box 2 -->
     <View
         android:id="@+id/grayBox2"
         android:layout_width="180dp"
@@ -156,7 +150,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Uniform Box 4 -->
     <View
         android:id="@+id/grayBox4"
         android:layout_width="194dp"
@@ -167,7 +160,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Purchase Top -->
+    <!-- PURCHASE BUTTONS -->
     <Button
         android:id="@+id/buttonPurchaseTop"
         android:layout_width="wrap_content"
@@ -182,7 +175,6 @@
         app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Purchase P.E. Shirt -->
     <Button
         android:id="@+id/buttonPurchasePeShirt"
         android:layout_width="wrap_content"
@@ -197,7 +189,6 @@
         app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Purchase Pants -->
     <Button
         android:id="@+id/buttonPurchasePants"
         android:layout_width="wrap_content"
@@ -212,7 +203,6 @@
         app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Purchase P.E. Pants -->
     <Button
         android:id="@+id/buttonPurchasePePants"
         android:layout_width="wrap_content"
@@ -227,7 +217,7 @@
         app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Back Button -->
+    <!-- BACK BUTTON -->
     <Button
         android:id="@+id/buttonBackItemList"
         android:layout_width="wrap_content"
@@ -241,7 +231,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Male P.E. Pants -->
+    <!-- IMAGE -->
     <ImageView
         android:id="@+id/imageView43"
         android:layout_width="338dp"
@@ -253,7 +243,6 @@
         app:layout_constraintStart_toStartOf="@id/grayBox4"
         app:layout_constraintEnd_toEndOf="@id/grayBox4" />
 
-    <!-- Male P.E. Shirt -->
     <ImageView
         android:id="@+id/imageView48"
         android:layout_width="304dp"
@@ -265,7 +254,6 @@
         app:layout_constraintStart_toStartOf="@id/grayBox3"
         app:layout_constraintEnd_toEndOf="@id/grayBox3" />
 
-    <!-- Male Top -->
     <ImageView
         android:id="@+id/imageView51"
         android:layout_width="271dp"
@@ -277,7 +265,6 @@
         app:layout_constraintStart_toStartOf="@id/grayBox1"
         app:layout_constraintEnd_toEndOf="@id/grayBox1" />
 
-    <!-- Male Pants -->
     <ImageView
         android:id="@+id/imageView54"
         android:layout_width="327dp"
@@ -288,5 +275,4 @@
         app:layout_constraintBottom_toBottomOf="@id/grayBox2"
         app:layout_constraintStart_toStartOf="@id/grayBox2"
         app:layout_constraintEnd_toEndOf="@id/grayBox2" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

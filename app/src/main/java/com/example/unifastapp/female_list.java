@@ -1,6 +1,7 @@
 package com.example.unifastapp;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +16,28 @@ public class female_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_female_list);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            v.setPadding(
+                    systemBars.left,
+                    systemBars.top,
+                    systemBars.right,
+                    systemBars.bottom
+            );
             return insets;
         });
+
+        Button backButton = findViewById(R.id.buttonBackItemList);
+
+        backButton.setOnClickListener(v -> finish());
+
+        Button purchaseTopButton = findViewById(R.id.buttonPurchaseTop);
+
+        Button purchasePantsButton = findViewById(R.id.buttonPurchasePants);
+
+        Button purchasePeShirtButton = findViewById(R.id.buttonPurchasePeShirt);
+
+        Button purchasePePantsButton = findViewById(R.id.buttonPurchasePePants);
     }
 }

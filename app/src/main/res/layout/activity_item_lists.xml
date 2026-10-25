@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".ItemLists">
 
-    <!-- Background -->
+    <!-- BACKGROUND -->
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="0dp"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Welcome Message -->
+    <!-- TEXT -->
     <TextView
         android:id="@+id/welcomeMessage2"
         android:layout_width="247dp"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Divider -->
+    <!-- DIVIDER -->
     <View
         android:id="@+id/topDivider2"
         android:layout_width="200dp"
@@ -57,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Logo -->
+    <!-- LOGO -->
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="139dp"
@@ -66,7 +66,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Box -->
+    <!-- BOX -->
     <View
         android:id="@+id/grayWhiteBox"
         android:layout_width="286dp"
@@ -93,7 +93,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496" />
 
-    <!-- Uniform -->
+    <!-- UNIFORM IMAGE -->
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="444dp"
@@ -114,7 +114,6 @@
         android:translationX="0dp"
         android:translationY="559dp" />
 
-    <!-- Button -->
     <Button
         android:id="@+id/femaleButton"
         android:layout_width="200dp"
