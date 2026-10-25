@@ -1,6 +1,8 @@
 package com.example.unifastapp;
 
 import android.os.Bundle;
+import android.content.Intent;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +17,19 @@ public class GreetingsScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_greetings_screen);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        // Make Purchase Button
+        Button makePurchaseButton = findViewById(R.id.button1InGreetings);
+
+        makePurchaseButton.setOnClickListener(v -> {
+            Intent intent = new Intent(GreetingsScreen.this, example_purchase.class);
+            startActivity(intent);
         });
     }
 }

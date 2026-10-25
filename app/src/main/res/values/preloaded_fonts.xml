@@ -2,5 +2,6 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/anonymous_pro</item>
+        <item>@font/arya</item>
     </array>
 </resources>
