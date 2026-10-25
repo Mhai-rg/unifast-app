@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,183 +8,285 @@
     android:layout_height="match_parent"
     tools:context=".female_list">
 
+    <!-- Background -->
     <ImageView
-        android:id="@+id/imageView42"
-        android:layout_width="1918dp"
-        android:layout_height="1761dp"
-        app:srcCompat="@mipmap/backroundinpurchase_foreground"
-        tools:layout_editor_absoluteX="-653dp"
-        tools:layout_editor_absoluteY="-452dp" />
+        android:id="@+id/imageView38"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/screen_background_dark" />
 
-    <ImageView
-        android:id="@+id/imageView43"
-        android:layout_width="333dp"
-        android:layout_height="304dp"
-        app:srcCompat="@mipmap/design_foreground"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-88dp" />
-
+    <!-- Section Title -->
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/welcomeMessage4"
         android:layout_width="247dp"
         android:layout_height="51dp"
-        android:fontFamily="cursive"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/akaya_kanadaka"
         android:text="Female Section"
-        android:textColor="#e1bbcb"
+        android:textColor="#E1BBCB"
         android:textSize="32sp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView50"
-        android:layout_width="1100dp"
-        android:layout_height="1156dp"
-        app:srcCompat="@mipmap/transparent_backround_foreground"
-        tools:layout_editor_absoluteX="-345dp"
-        tools:layout_editor_absoluteY="-117dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:backgroundTint="#272947"
+    <!-- Top Label -->
+    <TextView
+        android:id="@+id/femaleLabelTop"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="148dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Top"
-        android:textColor="#e1bbcb"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="120dp" />
+        android:textColor="#E1BBCB"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:backgroundTint="#272947"
+    <!-- P.E. Shirt Label -->
+    <TextView
+        android:id="@+id/femaleLabelPeShirt"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="512dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="P.E. Shirt"
-        android:textColor="#e1bbcb"
-        android:textSize="26sp"
-        tools:layout_editor_absoluteX="dp"
-        tools:layout_editor_absoluteY="470dp" />
+        android:textColor="#E1BBCB"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:backgroundTint="#272947"
+    <!-- Skirt Label -->
+    <TextView
+        android:id="@+id/femaleLabelSkirt"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="148dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Skirt"
-        android:textColor="#e1bbcb"
-        android:textSize="28sp"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="120dp" />
+        android:textColor="#E1BBCB"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:backgroundTint="#272947"
+    <!-- P.E. Pants Label -->
+    <TextView
+        android:id="@+id/femaleLabelPePants"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="512dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="P.E. Pants"
-        android:textColor="#e1bbcb"
-        android:textSize="26sp"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="470dp" />
+        android:textColor="#E1BBCB"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Top Divider -->
+    <View
+        android:id="@+id/topDivider4"
+        android:layout_width="190dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="72dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Middle Divider -->
+    <View
+        android:id="@+id/middleDivider2"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FBE1AE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Logo -->
     <ImageView
-        android:id="@+id/imageView57"
-        android:layout_width="298dp"
-        android:layout_height="429dp"
+        android:id="@+id/imageView7"
+        android:layout_width="139dp"
+        android:layout_height="132dp"
+        app:srcCompat="@mipmap/applogoingreetingsscreen_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Box 1 -->
+    <View
+        android:id="@+id/grayBox1"
+        android:layout_width="180dp"
+        android:layout_height="301dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="150dp"
+        android:background="#CCE0E0E0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Box 3 -->
+    <View
+        android:id="@+id/grayBox3"
+        android:layout_width="180dp"
+        android:layout_height="301dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="512dp"
+        android:background="#CCE0E0E0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Box 2 -->
+    <View
+        android:id="@+id/grayBox2"
+        android:layout_width="180dp"
+        android:layout_height="301dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="150dp"
+        android:background="#CCE0E0E0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Box 4 -->
+    <View
+        android:id="@+id/grayBox4"
+        android:layout_width="180dp"
+        android:layout_height="301dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="512dp"
+        android:background="#CCE0E0E0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Female Top Image -->
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="294dp"
+        android:layout_height="308dp"
+        android:scaleType="fitCenter"
         app:srcCompat="@mipmap/top_female_foreground"
-        tools:layout_editor_absoluteX="-39dp"
-        tools:layout_editor_absoluteY="65dp" />
+        app:layout_constraintTop_toTopOf="@id/grayBox1"
+        app:layout_constraintBottom_toBottomOf="@id/grayBox1"
+        app:layout_constraintStart_toStartOf="@id/grayBox1"
+        app:layout_constraintEnd_toEndOf="@id/grayBox1" />
 
+    <!-- Female Skirt Image -->
     <ImageView
-        android:id="@+id/imageView59"
-        android:layout_width="306dp"
-        android:layout_height="287dp"
-        app:srcCompat="@mipmap/pe_uniform_female_foreground"
-        tools:layout_editor_absoluteX="-38dp"
-        tools:layout_editor_absoluteY="494dp" />
-
-    <ImageView
-        android:id="@+id/imageView60"
-        android:layout_width="286dp"
-        android:layout_height="344dp"
-        app:srcCompat="@mipmap/pe_pants_foreground"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="470dp" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:alpha="0.7"
-        android:backgroundTint="#272947"
-        android:text="Purchase"
-        android:textColor="#e1bbcb"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="388dp" />
-
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:alpha="0.7"
-        android:backgroundTint="#272947"
-        android:text="Purchase"
-        android:textColor="#e1bbcb"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="388dp" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:alpha="0.7"
-        android:backgroundTint="#272947"
-        android:text="Purchase"
-        android:textColor="#e1bbcb"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="741dp" />
-
-    <ImageView
-        android:id="@+id/imageView58"
-        android:layout_width="343dp"
-        android:layout_height="213dp"
+        android:id="@+id/imageView49"
+        android:layout_width="284dp"
+        android:layout_height="233dp"
+        android:scaleType="fitCenter"
         app:srcCompat="@mipmap/skirt_female_foreground"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintTop_toTopOf="@id/grayBox2"
+        app:layout_constraintBottom_toBottomOf="@id/grayBox2"
+        app:layout_constraintStart_toStartOf="@id/grayBox2"
+        app:layout_constraintEnd_toEndOf="@id/grayBox2" />
 
+    <!-- Female P.E. Shirt Image -->
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="304dp"
+        android:layout_height="298dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/pe_uniform_female_foreground"
+        app:layout_constraintTop_toTopOf="@id/grayBox3"
+        app:layout_constraintBottom_toBottomOf="@id/grayBox3"
+        app:layout_constraintStart_toStartOf="@id/grayBox3"
+        app:layout_constraintEnd_toEndOf="@id/grayBox3" />
+
+    <!-- Female P.E. Pants Image -->
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="338dp"
+        android:layout_height="339dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/pe_pants_foreground"
+        app:layout_constraintTop_toTopOf="@id/grayBox4"
+        app:layout_constraintBottom_toBottomOf="@id/grayBox4"
+        app:layout_constraintStart_toStartOf="@id/grayBox4"
+        app:layout_constraintEnd_toEndOf="@id/grayBox4" />
+
+    <!-- Purchase Top -->
     <Button
-        android:id="@+id/button14"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:alpha="0.7"
-        android:backgroundTint="#272947"
+        android:id="@+id/buttonPurchaseTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="472dp"
+        android:alpha="0.8"
+        android:backgroundTint="#969696"
         android:text="Purchase"
-        android:textColor="#e1bbcb"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="741dp" />
+        android:textColor="#E1BBCB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView61"
+    <!-- Purchase P.E. Shirt -->
+    <Button
+        android:id="@+id/buttonPurchasePeShirt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/academylogo_foreground"
-        tools:layout_editor_absoluteX="-9dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_marginBottom="108dp"
+        android:alpha="0.8"
+        android:backgroundTint="#969696"
+        android:text="Purchase"
+        android:textColor="#E1BBCB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView77"
+    <!-- Purchase Skirt -->
+    <Button
+        android:id="@+id/buttonPurchaseSkirt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/screen_background_light"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="214dp" />
+        android:layout_marginBottom="472dp"
+        android:alpha="0.8"
+        android:backgroundTint="#969696"
+        android:text="Purchase"
+        android:textColor="#E1BBCB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Purchase P.E. Pants -->
+    <Button
+        android:id="@+id/buttonPurchasePePants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:alpha="0.8"
+        android:backgroundTint="#969696"
+        android:text="Purchase"
+        android:textColor="#E1BBCB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/buttonBackItemList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:alpha="0.8"
+        android:backgroundTint="#272947"
+        android:text="Back"
+        android:textColor="#E1BBCB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

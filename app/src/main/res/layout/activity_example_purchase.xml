@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -8,70 +9,110 @@
     tools:context=".example_purchase">
 
     <ImageView
-        android:id="@+id/imageView48"
-        android:layout_width="333dp"
-        android:layout_height="304dp"
-        app:srcCompat="@mipmap/design_foreground"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-88dp" />
-
-    <ImageView
-        android:id="@+id/imageView55"
-        android:layout_width="1765dp"
-        android:layout_height="1570dp"
-        app:srcCompat="@mipmap/example_purchase_backround_foreground"
-        tools:layout_editor_absoluteX="-579dp"
-        tools:layout_editor_absoluteY="-325dp" />
+        android:id="@+id/imageView40"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/screen_background_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/welcomeMessage5"
         android:layout_width="247dp"
         android:layout_height="51dp"
-        android:fontFamily="cursive"
-        android:text="Male Section"
-        android:textColor="#94b9ff"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/akaya_kanadaka"
+        android:text="Purchase"
+        android:textColor="#5DE0E6"
         android:textSize="32sp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/topDivider4"
+        android:layout_width="120dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="72dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView64"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_width="139dp"
+        android:layout_height="132dp"
         app:srcCompat="@mipmap/applogoingreetingsscreen_foreground"
-        tools:layout_editor_absoluteX="-10dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/grayWhiteBox2"
+        android:layout_width="311dp"
+        android:layout_height="564dp"
+        android:layout_marginTop="192dp"
+        android:alpha="0.5"
+        android:background="#808080"
+        android:foregroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView65"
-        android:layout_width="726dp"
-        android:layout_height="655dp"
+        android:id="@+id/imageView51"
+        android:layout_width="501dp"
+        android:layout_height="569dp"
+        android:scaleType="fitCenter"
         app:srcCompat="@mipmap/top_male_foreground"
-        tools:layout_editor_absoluteX="-155dp"
-        tools:layout_editor_absoluteY="109dp" />
+        app:layout_constraintTop_toTopOf="@id/grayWhiteBox2"
+        app:layout_constraintBottom_toBottomOf="@id/grayWhiteBox2"
+        app:layout_constraintStart_toStartOf="@id/grayWhiteBox2"
+        app:layout_constraintEnd_toEndOf="@id/grayWhiteBox2" />
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
+        android:id="@+id/welcomeMessage3"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="204dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="567.00"
-        android:textColor="#94b9ff"
-        android:textSize="55sp"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="136dp" />
+        android:textColor="#5DE0E6"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button15"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:alpha="1"
+        android:id="@+id/buttonInItemList3"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="176dp"
+        android:alpha="0.8"
+        android:backgroundTint="#969696"
+        android:text="Purchase"
+        android:textColor="#5DE0E6"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBackPurchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:alpha="0.8"
         android:backgroundTint="#272947"
-        android:fontFamily="sans-serif-black"
-        android:text="Make A Purchase"
-        android:textColor="#94b9ff"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="741dp" />
+        android:text="Back"
+        android:textColor="#E1BBCB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

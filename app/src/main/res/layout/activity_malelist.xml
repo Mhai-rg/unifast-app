@@ -1,181 +1,292 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".female_list">
+    tools:context=".MaleList">
 
+    <!-- Background -->
     <ImageView
-        android:id="@+id/imageView51"
-        android:layout_width="1918dp"
-        android:layout_height="1761dp"
-        app:srcCompat="@mipmap/backroundinpurchase_foreground"
-        tools:layout_editor_absoluteX="-653dp"
-        tools:layout_editor_absoluteY="-452dp" />
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/screen_background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView54"
-        android:layout_width="333dp"
-        android:layout_height="304dp"
-        app:srcCompat="@mipmap/design_foreground"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-88dp" />
-
+    <!-- Section Title -->
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/welcomeMessage3"
         android:layout_width="247dp"
         android:layout_height="51dp"
-        android:fontFamily="cursive"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/akaya_kanadaka"
         android:text="Male Section"
-        android:textColor="#94b9ff"
+        android:textColor="#5DE0E6"
         android:textSize="32sp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView56"
-        android:layout_width="1100dp"
-        android:layout_height="1156dp"
-        app:srcCompat="@mipmap/transparent_backround_foreground"
-        tools:layout_editor_absoluteX="-345dp"
-        tools:layout_editor_absoluteY="-117dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:backgroundTint="#272947"
-        android:fontFamily="casual"
+    <!-- Top Label -->
+    <TextView
+        android:id="@+id/labelTop"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Top"
-        android:textColor="#94b9ff"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="120dp" />
+        android:textColor="#5DE0E6"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:backgroundTint="#272947"
-        android:fontFamily="casual"
+    <!-- P.E. Shirt Label -->
+    <TextView
+        android:id="@+id/labelPeShirt"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="512dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="P.E. Shirt"
-        android:textColor="#94b9ff"
-        android:textSize="26sp"
-        tools:layout_editor_absoluteX="dp"
-        tools:layout_editor_absoluteY="470dp" />
+        android:textColor="#5DE0E6"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:backgroundTint="#272947"
-        android:fontFamily="casual"
+    <!-- Pants Label -->
+    <TextView
+        android:id="@+id/labelPants"
+        android:layout_width="200dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Pants"
-        android:textColor="#94b9ff"
-        android:textSize="28sp"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="120dp" />
+        android:textColor="#5DE0E6"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView63"
-        android:layout_width="286dp"
-        android:layout_height="344dp"
-        app:srcCompat="@mipmap/pe_pants_foreground"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="470dp" />
-
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:backgroundTint="#272947"
-        android:fontFamily="casual"
+    <!-- P.E. Pants Label -->
+    <TextView
+        android:id="@+id/labelPePants"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="512dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="P.E. Pants"
-        android:textColor="#94b9ff"
-        android:textSize="26sp"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="470dp" />
+        android:textColor="#5DE0E6"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:alpha="0.7"
-        android:backgroundTint="#272947"
-        android:text="Purchase"
-        android:textColor="#94b9ff"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="388dp" />
+    <!-- Top Divider -->
+    <View
+        android:id="@+id/topDivider4"
+        android:layout_width="170dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="72dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:alpha="0.7"
-        android:backgroundTint="#272947"
-        android:text="Purchase"
-        android:textColor="#94b9ff"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="388dp" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:alpha="0.7"
-        android:backgroundTint="#272947"
-        android:text="Purchase"
-        android:textColor="#94b9ff"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="741dp" />
-
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        android:alpha="0.7"
-        android:backgroundTint="#272947"
-        android:text="Purchase"
-        android:textColor="#94b9ff"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="741dp" />
-
+    <!-- Logo -->
     <ImageView
-        android:id="@+id/imageView67"
-        android:layout_width="288dp"
-        android:layout_height="387dp"
-        app:srcCompat="@mipmap/pe_top_male_foreground"
-        tools:layout_editor_absoluteX="-30dp"
-        tools:layout_editor_absoluteY="439dp" />
+        android:id="@+id/imageView7"
+        android:layout_width="139dp"
+        android:layout_height="132dp"
+        app:srcCompat="@mipmap/applogoingreetingsscreen_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView68"
-        android:layout_width="330dp"
-        android:layout_height="311dp"
-        app:srcCompat="@mipmap/top_male_foreground"
-        tools:layout_editor_absoluteX="-47dp"
-        tools:layout_editor_absoluteY="139dp" />
+    <!-- Middle Divider -->
+    <View
+        android:id="@+id/middleDivider2"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FBE1AE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView69"
-        android:layout_width="286dp"
-        android:layout_height="345dp"
-        app:srcCompat="@mipmap/pants_male_foreground"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="120dp" />
+    <!-- Uniform Box 1 -->
+    <View
+        android:id="@+id/grayBox1"
+        android:layout_width="180dp"
+        android:layout_height="301dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="150dp"
+        android:background="#CCE0E0E0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView49"
+    <!-- Uniform Box 3 -->
+    <View
+        android:id="@+id/grayBox3"
+        android:layout_width="180dp"
+        android:layout_height="301dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="512dp"
+        android:background="#CCE0E0E0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Uniform Box 2 -->
+    <View
+        android:id="@+id/grayBox2"
+        android:layout_width="180dp"
+        android:layout_height="301dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="150dp"
+        android:background="#CCE0E0E0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Uniform Box 4 -->
+    <View
+        android:id="@+id/grayBox4"
+        android:layout_width="194dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="512dp"
+        android:background="#CCE0E0E0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Purchase Top -->
+    <Button
+        android:id="@+id/buttonPurchaseTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/academylogo_foreground"
-        tools:layout_editor_absoluteX="-9dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_marginBottom="472dp"
+        android:alpha="0.8"
+        android:backgroundTint="#969696"
+        android:text="Purchase"
+        android:textColor="#5DE0E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Purchase P.E. Shirt -->
+    <Button
+        android:id="@+id/buttonPurchasePeShirt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:alpha="0.8"
+        android:backgroundTint="#969696"
+        android:text="Purchase"
+        android:textColor="#5DE0E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Purchase Pants -->
+    <Button
+        android:id="@+id/buttonPurchasePants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="472dp"
+        android:alpha="0.8"
+        android:backgroundTint="#969696"
+        android:text="Purchase"
+        android:textColor="#5DE0E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Purchase P.E. Pants -->
+    <Button
+        android:id="@+id/buttonPurchasePePants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:alpha="0.8"
+        android:backgroundTint="#969696"
+        android:text="Purchase"
+        android:textColor="#5DE0E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/buttonBackItemList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:alpha="0.8"
+        android:backgroundTint="#272947"
+        android:text="Back"
+        android:textColor="#E1BBCB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Male P.E. Pants -->
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="338dp"
+        android:layout_height="339dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/pe_pants_foreground"
+        app:layout_constraintTop_toTopOf="@id/grayBox4"
+        app:layout_constraintBottom_toBottomOf="@id/grayBox4"
+        app:layout_constraintStart_toStartOf="@id/grayBox4"
+        app:layout_constraintEnd_toEndOf="@id/grayBox4" />
+
+    <!-- Male P.E. Shirt -->
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="304dp"
+        android:layout_height="298dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/pe_top_male_foreground"
+        app:layout_constraintTop_toTopOf="@id/grayBox3"
+        app:layout_constraintBottom_toBottomOf="@id/grayBox3"
+        app:layout_constraintStart_toStartOf="@id/grayBox3"
+        app:layout_constraintEnd_toEndOf="@id/grayBox3" />
+
+    <!-- Male Top -->
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="271dp"
+        android:layout_height="302dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/top_male_foreground"
+        app:layout_constraintTop_toTopOf="@id/grayBox1"
+        app:layout_constraintBottom_toBottomOf="@id/grayBox1"
+        app:layout_constraintStart_toStartOf="@id/grayBox1"
+        app:layout_constraintEnd_toEndOf="@id/grayBox1" />
+
+    <!-- Male Pants -->
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="327dp"
+        android:layout_height="366dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/pants_male_foreground"
+        app:layout_constraintTop_toTopOf="@id/grayBox2"
+        app:layout_constraintBottom_toBottomOf="@id/grayBox2"
+        app:layout_constraintStart_toStartOf="@id/grayBox2"
+        app:layout_constraintEnd_toEndOf="@id/grayBox2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

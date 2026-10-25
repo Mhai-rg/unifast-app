@@ -24,11 +24,11 @@ public class GreetingsScreen extends AppCompatActivity {
             return insets;
         });
 
-        // Make Purchase Button
+        // Purchase Button
         Button makePurchaseButton = findViewById(R.id.button1InGreetings);
 
         makePurchaseButton.setOnClickListener(v -> {
-            Intent intent = new Intent(GreetingsScreen.this, example_purchase.class);
+            Intent intent = new Intent(GreetingsScreen.this, ItemLists.class);
             startActivity(intent);
         });
     }
