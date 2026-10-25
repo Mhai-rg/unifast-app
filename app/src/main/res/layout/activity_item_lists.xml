@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,109 +8,136 @@
     android:layout_height="match_parent"
     tools:context=".ItemLists">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".GreetingsScreen">
+    <!-- Background -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/screen_background_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="2046dp"
-            android:layout_height="1611dp"
-            app:srcCompat="@mipmap/backroundofgreetingsscreen_foreground"
-            tools:layout_editor_absoluteX="-724dp"
-            tools:layout_editor_absoluteY="-331dp" />
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/profilepicture_foreground"
-            tools:layout_editor_absoluteX="-6dp"
-            tools:layout_editor_absoluteY="-1dp" />
-
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="333dp"
-            android:layout_height="304dp"
-            app:srcCompat="@mipmap/design_foreground"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="-88dp" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="247dp"
-            android:layout_height="51dp"
-            android:fontFamily="@font/akaya_kanadaka"
-            android:text="Welcome, Mhai!"
-            android:textColor="#e1bbcb"
-            android:textSize="32sp"
-            tools:layout_editor_absoluteX="82dp"
-            tools:layout_editor_absoluteY="25dp" />
-
-        <ImageView
-            android:id="@+id/imageView38"
-            android:layout_width="1155dp"
-            android:layout_height="1919dp"
-            app:srcCompat="@mipmap/transparentbackround_foreground"
-            tools:layout_editor_absoluteX="-362dp"
-            tools:layout_editor_absoluteY="-439dp" />
-
-        <ImageView
-            android:id="@+id/imageView40"
-            android:layout_width="537dp"
-            android:layout_height="467dp"
-            app:srcCompat="@mipmap/femaleuniform_foreground"
-            tools:layout_editor_absoluteX="-43dp"
-            tools:layout_editor_absoluteY="123dp" />
-
-        <ImageView
-            android:id="@+id/imageView41"
-            android:layout_width="847dp"
-            android:layout_height="402dp"
-            app:srcCompat="@mipmap/maleuniform_foreground"
-            tools:layout_editor_absoluteX="-218dp"
-            tools:layout_editor_absoluteY="549dp" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="240dp"
-            android:layout_height="100dp"
-            android:background="?android:attr/selectableItemBackground"
-            android:backgroundTint="#272947"
-            android:fontFamily="sans-serif-black"
-            android:text="FEMALE"
-            android:textColor="#e1bbcb"
-            android:textSize="39sp"
-            tools:layout_editor_absoluteX="103dp"
-            tools:layout_editor_absoluteY="172dp" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="240dp"
-            android:layout_height="100dp"
-            android:background="?android:attr/selectableItemBackground"
-            android:backgroundTint="#272947"
-            android:fontFamily="sans-serif-black"
-            android:text="MALE"
-            android:textColor="#94b9ff"
-            android:textSize="39sp"
-            tools:layout_editor_absoluteX="85dp"
-            tools:layout_editor_absoluteY="549dp" />
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
+    <!-- Welcome Message -->
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/welcomeMessage2"
         android:layout_width="247dp"
         android:layout_height="51dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/akaya_kanadaka"
         android:text="Welcome, Mhai!"
-        android:textColor="#e1bbcb"
+        android:textColor="#E1BBCB"
         android:textSize="32sp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Divider -->
+    <View
+        android:id="@+id/topDivider2"
+        android:layout_width="200dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="72dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/middleDivider2"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FBE1AE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="139dp"
+        android:layout_height="132dp"
+        app:srcCompat="@mipmap/applogoingreetingsscreen_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Box -->
+    <View
+        android:id="@+id/grayWhiteBox"
+        android:layout_width="286dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="132dp"
+        android:background="#808080"
+        android:foregroundTint="#FFFFFF"
+        android:alpha="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496" />
+
+    <View
+        android:id="@+id/grayWhiteBox2"
+        android:layout_width="286dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="544dp"
+        android:background="#808080"
+        android:foregroundTint="#FFFFFF"
+        android:alpha="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496" />
+
+    <!-- Uniform -->
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="444dp"
+        android:layout_height="407dp"
+        app:srcCompat="@mipmap/femaleuniform_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationX="-17dp"
+        android:translationY="113dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="412dp"
+        android:layout_height="348dp"
+        app:srcCompat="@mipmap/maleuniform_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationX="0dp"
+        android:translationY="559dp" />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/femaleButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#1AFFFFFF"
+        android:text="FEMALE"
+        android:textColor="#F0CB84"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationX="105dp"
+        android:translationY="142dp" />
+
+    <Button
+        android:id="@+id/maleButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#1AFFFFFF"
+        android:text="MALE"
+        android:textColor="#5DE0E6"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationX="105dp"
+        android:translationY="554dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
