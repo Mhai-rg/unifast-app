@@ -1,6 +1,7 @@
 package com.example.unifastapp;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +16,26 @@ public class example_purchase extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_example_purchase);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+
+            v.setPadding(
+                    systemBars.left,
+                    systemBars.top,
+                    systemBars.right,
+                    systemBars.bottom
+            );
+
             return insets;
         });
+
+        // Back Button
+        Button backButton = findViewById(R.id.buttonBackPurchase);
+
+        backButton.setOnClickListener(v -> finish());
+
+        // Purchase Button
+        Button purchaseButton = findViewById(R.id.buttonInItemList3);
     }
 }

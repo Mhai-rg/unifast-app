@@ -27,14 +27,15 @@ public class female_list extends AppCompatActivity {
             );
             return insets;
         });
-
+        // Back Button
         Button backButton = findViewById(R.id.buttonBackItemList);
 
         backButton.setOnClickListener(v -> finish());
 
+        // Purchase Button
         Button purchaseTopButton = findViewById(R.id.buttonPurchaseTop);
 
-        Button purchasePantsButton = findViewById(R.id.buttonPurchasePants);
+        Button purchasePantsButton = findViewById(R.id.buttonPurchaseSkirt);
 
         Button purchasePeShirtButton = findViewById(R.id.buttonPurchasePeShirt);
 

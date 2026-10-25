@@ -34,31 +34,13 @@ public class malelist extends AppCompatActivity {
 
         backButton.setOnClickListener(v -> finish());
 
-        // Purchase Top
+        // Purchase Button
         Button purchaseTopButton = findViewById(R.id.buttonPurchaseTop);
 
-        purchaseTopButton.setOnClickListener(v -> {
-            Intent intent = new Intent(malelist.this, example_purchase.class);
-            startActivity(intent);
-        });
-
-        // Purchase Pants
         Button purchasePantsButton = findViewById(R.id.buttonPurchasePants);
 
-        purchasePantsButton.setOnClickListener(v -> {
-            Intent intent = new Intent(malelist.this, example_purchase.class);
-            startActivity(intent);
-        });
-
-        // Purchase P.E. Shirt
         Button purchasePeShirtButton = findViewById(R.id.buttonPurchasePeShirt);
 
-        purchasePeShirtButton.setOnClickListener(v -> {
-            Intent intent = new Intent(malelist.this, example_purchase.class);
-            startActivity(intent);
-        });
-
-        // Purchase P.E. Pants
         Button purchasePePantsButton = findViewById(R.id.buttonPurchasePePants);
 
         purchasePePantsButton.setOnClickListener(v -> {
