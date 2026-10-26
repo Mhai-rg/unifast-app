@@ -9,13 +9,11 @@
     tools:ignore="ExtraText">
 
     <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="1181dp"
-        android:layout_height="2059dp"
-        app:srcCompat="@mipmap/background_background"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-340dp"
-        tools:layout_editor_absoluteY="-538dp" />
+        android:id="@+id/imageView56"
+        android:layout_width="422dp"
+        android:layout_height="1010dp"
+        app:srcCompat="@android:drawable/screen_background_dark"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -151,8 +149,11 @@
 
 
 
+
+
     100dp"
         tools:layout_editor_absoluteY="836dp" />
+
 
 
 ]]>
