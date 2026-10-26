@@ -73,8 +73,8 @@
         android:layout_height="1077dp"
         app:srcCompat="@mipmap/beigedesign_foreground"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-182dp"
-        tools:layout_editor_absoluteY="-120dp" />
+        tools:layout_editor_absoluteX="-179dp"
+        tools:layout_editor_absoluteY="-123dp" />
 
     <Button
         android:id="@+id/Purchasebutton"
@@ -294,30 +294,29 @@
         tools:layout_editor_absoluteX="323dp"
         tools:layout_editor_absoluteY="441dp" />
 
-    <EditText
-        android:id="@+id/editTextText24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/transparent"
-        android:ems="10"
-        android:inputType="text"
+    <TextView
+        android:id="@+id/ProcessMessage"
+        android:layout_width="247dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="560dp"
         android:text="Processing information"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="555dp" />
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextText26"
-        android:layout_width="189dp"
-        android:layout_height="45dp"
-        android:backgroundTint="@android:color/transparent"
-        android:ems="10"
-        android:inputType="text"
+    <TextView
+        android:id="@+id/OrderProcessMessage"
+        android:layout_width="247dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="596dp"
         android:text="Your order is being process"
-        android:textSize="15sp"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="590dp"
-        tools:ignore="MissingConstraints" />
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextText27"
