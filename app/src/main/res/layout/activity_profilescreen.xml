@@ -105,7 +105,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/editProfileButton"
         android:layout_width="226dp"
         android:layout_height="71dp"
         android:backgroundTint="#272947"
@@ -117,7 +117,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/shareProfileButton"
         android:layout_width="226dp"
         android:layout_height="71dp"
         android:backgroundTint="#272947"
@@ -129,7 +129,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/settingsButton"
         android:layout_width="205dp"
         android:layout_height="62dp"
         android:backgroundTint="#858483"
@@ -141,7 +141,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/privacyButton"
         android:layout_width="205dp"
         android:layout_height="62dp"
         android:backgroundTint="#858483"
@@ -153,7 +153,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/messageButton"
         android:layout_width="205dp"
         android:layout_height="62dp"
         android:backgroundTint="#858483"
@@ -165,7 +165,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/themeButton"
         android:layout_width="205dp"
         android:layout_height="62dp"
         android:backgroundTint="#858483"
@@ -177,7 +177,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/orderButton"
         android:layout_width="205dp"
         android:layout_height="62dp"
         android:backgroundTint="#858483"
@@ -189,7 +189,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/cartButton"
         android:layout_width="205dp"
         android:layout_height="62dp"
         android:backgroundTint="#858483"
@@ -201,7 +201,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/orderPointsbutton"
         android:layout_width="182dp"
         android:layout_height="108dp"
         android:backgroundTint="#272947"
@@ -213,7 +213,7 @@
         tools:ignore="DuplicateIds,MissingConstraints" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/discountButton"
         android:layout_width="187dp"
         android:layout_height="115dp"
         android:backgroundTint="#272947"

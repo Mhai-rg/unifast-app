@@ -13,18 +13,7 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="GreetingsScreen">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-09-14T05:57:45.090080800Z">
-          <Target type="DEFAULT_BOOT">
-            <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\SHS PC\.android\avd\Medium_Phone.avd" />
-            </handle>
-          </Target>
-        </DropdownSelection>
-        <DialogSelection />
-      </SelectionState>
-      <SelectionState runConfigName="ItemLists">
+      <SelectionState runConfigName="malelist">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-09-14T05:57:45.090080800Z">
           <Target type="DEFAULT_BOOT">
