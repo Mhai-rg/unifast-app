@@ -14,7 +14,8 @@
         android:layout_marginTop="92dp"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/background"
-        tools:layout_editor_absoluteX="1164dp" />
+        tools:layout_editor_absoluteX="1164dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -22,7 +23,8 @@
         android:layout_height="1216dp"
         app:srcCompat="@mipmap/ic_launcher_background"
         tools:layout_editor_absoluteX="-525dp"
-        tools:layout_editor_absoluteY="-203dp" />
+        tools:layout_editor_absoluteY="-203dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView21"
@@ -30,7 +32,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/schoollogo_foreground"
         tools:layout_editor_absoluteX="-19dp"
-        tools:layout_editor_absoluteY="-16dp" />
+        tools:layout_editor_absoluteY="-16dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView22"
@@ -38,7 +41,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/background"
         tools:layout_editor_absoluteX="339dp"
-        tools:layout_editor_absoluteY="20dp" />
+        tools:layout_editor_absoluteY="20dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView29"
@@ -46,7 +50,8 @@
         android:layout_height="750dp"
         app:srcCompat="@mipmap/box"
         tools:layout_editor_absoluteX="-248dp"
-        tools:layout_editor_absoluteY="106dp" />
+        tools:layout_editor_absoluteY="106dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView45"
@@ -55,7 +60,8 @@
         android:layoutSize=""
         app:srcCompat="@android:drawable/button_onoff_indicator_off"
         tools:layout_editor_absoluteX="-295dp"
-        tools:layout_editor_absoluteY="466dp" />
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView66"
@@ -64,7 +70,8 @@
         android:layoutSize=""
         app:srcCompat="@android:drawable/button_onoff_indicator_off"
         tools:layout_editor_absoluteX="-298dp"
-        tools:layout_editor_absoluteY="408dp" />
+        tools:layout_editor_absoluteY="408dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView78"
@@ -73,7 +80,8 @@
         android:layoutSize=""
         app:srcCompat="@android:drawable/button_onoff_indicator_off"
         tools:layout_editor_absoluteX="-298dp"
-        tools:layout_editor_absoluteY="348dp" />
+        tools:layout_editor_absoluteY="348dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView44"
@@ -82,7 +90,8 @@
         android:layoutSize=""
         app:srcCompat="@android:drawable/button_onoff_indicator_off"
         tools:layout_editor_absoluteX="-298dp"
-        tools:layout_editor_absoluteY="619dp" />
+        tools:layout_editor_absoluteY="619dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView80"
@@ -91,7 +100,8 @@
         android:layoutSize=""
         app:srcCompat="@android:drawable/button_onoff_indicator_off"
         tools:layout_editor_absoluteX="-298dp"
-        tools:layout_editor_absoluteY="556dp" />
+        tools:layout_editor_absoluteY="556dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView46"
@@ -100,7 +110,8 @@
         android:layoutSize=""
         app:srcCompat="@android:drawable/button_onoff_indicator_off"
         tools:layout_editor_absoluteX="-298dp"
-        tools:layout_editor_absoluteY="678dp" />
+        tools:layout_editor_absoluteY="678dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView47"
@@ -109,7 +120,8 @@
         android:layoutSize=""
         app:srcCompat="@android:drawable/button_onoff_indicator_off"
         tools:layout_editor_absoluteX="-298dp"
-        tools:layout_editor_absoluteY="740dp" />
+        tools:layout_editor_absoluteY="740dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView14"
@@ -118,7 +130,8 @@
         android:text="Enter"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="645dp" />
+        tools:layout_editor_absoluteY="645dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView15"
@@ -127,7 +140,8 @@
         android:text="Enter"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="704dp" />
+        tools:layout_editor_absoluteY="704dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView16"
@@ -136,7 +150,8 @@
         android:text="Enter"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="766dp" />
+        tools:layout_editor_absoluteY="766dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView30"
@@ -144,7 +159,8 @@
         android:layout_height="400dp"
         app:srcCompat="@mipmap/layout_foreground"
         tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="-83dp" />
+        tools:layout_editor_absoluteY="-83dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView52"
@@ -152,7 +168,8 @@
         android:layout_height="100dp"
         app:srcCompat="@android:drawable/dialog_holo_dark_frame"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="775dp" />
+        tools:layout_editor_absoluteY="775dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView53"
@@ -160,7 +177,8 @@
         android:layout_height="100dp"
         app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
         tools:layout_editor_absoluteX="380dp"
-        tools:layout_editor_absoluteY="65dp" />
+        tools:layout_editor_absoluteY="65dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView27"
@@ -168,7 +186,8 @@
         android:layout_height="280dp"
         app:srcCompat="@mipmap/cash_foreground"
         tools:layout_editor_absoluteX="-20dp"
-        tools:layout_editor_absoluteY="82dp" />
+        tools:layout_editor_absoluteY="82dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView37"
@@ -176,7 +195,8 @@
         android:layout_height="84dp"
         app:srcCompat="@mipmap/c_round"
         tools:layout_editor_absoluteX="-45dp"
-        tools:layout_editor_absoluteY="256dp" />
+        tools:layout_editor_absoluteY="256dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView12"
@@ -185,7 +205,8 @@
         android:text="Enter"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="582dp" />
+        tools:layout_editor_absoluteY="582dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView13"
@@ -194,7 +215,8 @@
         android:text="Enter"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="434dp" />
+        tools:layout_editor_absoluteY="434dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView11"
@@ -203,7 +225,8 @@
         android:text="Enter"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="374dp" />
+        tools:layout_editor_absoluteY="374dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView27"
@@ -212,18 +235,19 @@
         android:text="Enter"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="492dp" />
+        tools:layout_editor_absoluteY="492dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView18"
-        android
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Number*"
         android:textSize="18sp"
 
         tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="350dp" />
+        tools:layout_editor_absoluteY="350dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView21"
@@ -233,7 +257,8 @@
         android:textColor="@color/white"
         android:textSize="17sp"
         tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="118dp" />
+        tools:layout_editor_absoluteY="118dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView22"
@@ -243,7 +268,8 @@
         android:textColor="@color/white"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="149dp" />
+        tools:layout_editor_absoluteY="149dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView23"
@@ -253,7 +279,8 @@
         android:textColor="@color/white"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="232dp" />
+        tools:layout_editor_absoluteY="232dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView19"
@@ -262,7 +289,8 @@
         android:text="OTP*"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="410dp" />
+        tools:layout_editor_absoluteY="410dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView20"
@@ -271,7 +299,8 @@
         android:text="Expiration date*"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="621dp" />
+        tools:layout_editor_absoluteY="621dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView28"
@@ -280,7 +309,8 @@
         android:text="CCV*"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="680dp" />
+        tools:layout_editor_absoluteY="680dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView29"
@@ -289,7 +319,8 @@
         android:text="Cardholder name*"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="742dp" />
+        tools:layout_editor_absoluteY="742dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView33"
@@ -299,7 +330,8 @@
         android:textColor="@color/white"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="316dp" />
+        tools:layout_editor_absoluteY="316dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView25"
@@ -309,7 +341,8 @@
         android:textSize="18sp"
         android:textColor="@color/white"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="523dp" />
+        tools:layout_editor_absoluteY="523dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView26"
@@ -318,7 +351,8 @@
         android:text="Card Number*"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="556dp" />
+        tools:layout_editor_absoluteY="556dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView24"
@@ -327,7 +361,8 @@
         android:text="MPIN*"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="466dp" />
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView17"
@@ -337,6 +372,7 @@
         android:textColor="@color/white"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="805dp" />
+        tools:layout_editor_absoluteY="805dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

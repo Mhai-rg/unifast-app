@@ -8,13 +8,12 @@
     tools:context=".signup_screen_">
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="939dp"
-        android:layout_height="1449dp"
-        app:srcCompat="@mipmap/background_background"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-222dp"
-        tools:layout_editor_absoluteY="-272dp" />
+        android:id="@+id/imageView55"
+        android:layout_width="481dp"
+        android:layout_height="940dp"
+        app:srcCompat="@android:drawable/screen_background_dark"
+        tools:layout_editor_absoluteX="-20dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView13"
