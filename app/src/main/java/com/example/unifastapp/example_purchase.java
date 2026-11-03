@@ -16,6 +16,7 @@ public class example_purchase extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_example_purchase);
+        ScreenScroll.enable(this, R.id.main);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -37,5 +38,9 @@ public class example_purchase extends AppCompatActivity {
 
         // Purchase Button
         Button purchaseButton = findViewById(R.id.buttonInItemList3);
+        purchaseButton.setOnClickListener(v -> {
+            android.content.Intent intent = new android.content.Intent(example_purchase.this, receiptscreen.class);
+            startActivity(intent);
+        });
     }
 }

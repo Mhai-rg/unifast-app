@@ -16,6 +16,7 @@ public class female_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_female_list);
+        ScreenScroll.enable(this, R.id.main);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -34,11 +35,15 @@ public class female_list extends AppCompatActivity {
 
         // Purchase Button
         Button purchaseTopButton = findViewById(R.id.buttonPurchaseTop);
+        purchaseTopButton.setOnClickListener(v -> startActivity(new android.content.Intent(female_list.this, example_purchase.class)));
 
         Button purchasePantsButton = findViewById(R.id.buttonPurchaseSkirt);
+        purchasePantsButton.setOnClickListener(v -> startActivity(new android.content.Intent(female_list.this, example_purchase.class)));
 
         Button purchasePeShirtButton = findViewById(R.id.buttonPurchasePeShirt);
+        purchasePeShirtButton.setOnClickListener(v -> startActivity(new android.content.Intent(female_list.this, example_purchase.class)));
 
         Button purchasePePantsButton = findViewById(R.id.buttonPurchasePePants);
+        purchasePePantsButton.setOnClickListener(v -> startActivity(new android.content.Intent(female_list.this, example_purchase.class)));
     }
 }

@@ -17,6 +17,7 @@ public class malelist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_malelist);
+        ScreenScroll.enable(this, R.id.main);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -36,10 +37,13 @@ public class malelist extends AppCompatActivity {
 
         // Purchase Button
         Button purchaseTopButton = findViewById(R.id.buttonPurchaseTop);
+        purchaseTopButton.setOnClickListener(v -> startActivity(new android.content.Intent(malelist.this, example_purchase.class)));
 
         Button purchasePantsButton = findViewById(R.id.buttonPurchasePants);
+        purchasePantsButton.setOnClickListener(v -> startActivity(new android.content.Intent(malelist.this, example_purchase.class)));
 
         Button purchasePeShirtButton = findViewById(R.id.buttonPurchasePeShirt);
+        purchasePeShirtButton.setOnClickListener(v -> startActivity(new android.content.Intent(malelist.this, example_purchase.class)));
 
         Button purchasePePantsButton = findViewById(R.id.buttonPurchasePePants);
 
