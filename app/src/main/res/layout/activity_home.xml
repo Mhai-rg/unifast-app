@@ -123,17 +123,19 @@
         android:layout_marginTop="496dp" />
 
     <!-- Male Pants -->
+
+    <!-- Shop Female Button -->
+
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="236dp"
         android:layout_height="276dp"
-        app:srcCompat="@mipmap/male_pants"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="556dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="565dp" />
+        app:srcCompat="@mipmap/male_pants" />
 
-    <!-- Shop Female Button -->
     <Button
         android:id="@+id/buttonShopFemale"
         android:layout_width="173dp"
