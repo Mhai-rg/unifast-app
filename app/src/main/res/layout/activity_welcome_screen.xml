@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:scrollbars="vertical">
-  <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/main" android:layout_width="match_parent" android:layout_height="wrap_content" tools:context=".WelcomeScreen" android:minHeight="1100dp">
-
-    <ImageView android:id="@+id/backgroundImage" android:layout_width="1671dp" android:layout_height="1572dp" android:scaleType="fitXY" app:srcCompat="@mipmap/loadingbackround_foreground" app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
-
-    <ImageView android:id="@+id/schoolLogo" android:layout_width="505dp" android:layout_height="523dp" app:srcCompat="@mipmap/schoollogo_foreground" app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
-</androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
