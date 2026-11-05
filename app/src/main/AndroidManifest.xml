@@ -12,57 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UnifastApp">
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name=".GreetingsScreen"
+            android:name=".splash_screen"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-
-        <activity
-            android:name=".signup_screen_"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <activity
-            android:name=".ItemLists"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <activity
-            android:name=".female_list"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <activity
-            android:name=".malelist"
-            android:exported="false"
-            android:theme="@style/Theme.UnifastApp"
-            android:windowSoftInputMode="adjustResize" />
-
-        <activity
-            android:name=".example_purchase"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-        <activity
-            android:name=".draft"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-
-
-        <activity android:name=".loginscreen" android:exported="false" android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".profilescreen" android:exported="false" android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".payment_screen" android:exported="false" android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".receiptscreen" android:exported="false" android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".WelcomeScreen" android:exported="false" android:windowSoftInputMode="adjustResize" />
 
     </application>
 
