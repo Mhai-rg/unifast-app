@@ -1,4 +1,4 @@
- package com.example.unifastapp;
+package com.example.unifastapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,6 +21,7 @@ public class Home extends AppCompatActivity {
 
         ViewCompat.setOnApplyWindowInsetsListener(
                 findViewById(R.id.main), (v, insets) -> {
+
                     Insets systemBars = insets.getInsets(
                             WindowInsetsCompat.Type.systemBars()
                     );
@@ -50,6 +51,13 @@ public class Home extends AppCompatActivity {
         buttonShopMale.setOnClickListener(v -> {
             Intent intent = new Intent(Home.this, male_list.class);
             startActivity(intent);
+        });
+
+        // Back Home Button
+        Button buttonBackHome = findViewById(R.id.buttonBackHome);
+
+        buttonBackHome.setOnClickListener(v -> {
+            finish();
         });
     }
 }

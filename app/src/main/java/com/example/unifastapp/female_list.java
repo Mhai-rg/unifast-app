@@ -12,11 +12,10 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class female_list extends AppCompatActivity {
 
-    // Replace these with your actual product prices
     private final int femaleTopPrice = 367;
-    private final int femaleSkirtPrice = 0;
-    private final int peShirtPrice = 0;
-    private final int pePantsPrice = 0;
+    private final int femaleSkirtPrice = 367;
+    private final int peShirtPrice = 367;
+    private final int pePantsPrice = 367;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

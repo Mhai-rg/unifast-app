@@ -11,12 +11,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class male_list extends AppCompatActivity {
-
-    // Replace these with your actual product prices
-    private final int maleTopPrice = 0;
-    private final int malePantsPrice = 0;
-    private final int peShirtPrice = 0;
-    private final int pePantsPrice = 0;
+    private final int maleTopPrice = 367;
+    private final int malePantsPrice = 367;
+    private final int peShirtPrice = 367;
+    private final int pePantsPrice = 367;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +47,7 @@ public class male_list extends AppCompatActivity {
         Button buttonMalePants = findViewById(R.id.buttonMalePants);
         Button buttonPEShirt = findViewById(R.id.buttonPEShirt);
         Button buttonPEPants = findViewById(R.id.buttonPEPants);
-        Button buttonBackHome = findViewById(R.id.buttonBackHome);
+        Button buttonBackHome1 = findViewById(R.id.buttonBackHome1);
 
         // Male Top
         buttonMaleTop.setOnClickListener(v -> {
@@ -74,7 +72,7 @@ public class male_list extends AppCompatActivity {
         });
 
         // Back Home
-        buttonBackHome.setOnClickListener(v -> {
+        buttonBackHome1.setOnClickListener(v -> {
             finish();
         });
     }

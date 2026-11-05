@@ -9,12 +9,8 @@
     android:background="#4d5e7a"
     tools:context=".male_list">
 
-    <!-- Back Home Button -->
-
-    <!-- App Logo -->
-
     <Button
-        android:id="@+id/buttonBackHome"
+        android:id="@+id/buttonBackHome1"
         android:layout_width="160dp"
         android:layout_height="56dp"
         android:layout_marginBottom="40dp"
@@ -27,6 +23,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- App Logo -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="190dp"

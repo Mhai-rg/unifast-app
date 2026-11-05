@@ -10,8 +10,6 @@
     tools:context=".female_list">
 
     <!-- Back Home Button -->
-
-    <!-- App Logo -->
     <Button
         android:id="@+id/buttonBackHome2"
         android:layout_width="160dp"
@@ -26,6 +24,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- App Logo -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="190dp"
