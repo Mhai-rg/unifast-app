@@ -11,24 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UnifastApp">
-
         <activity
             android:name=".Home"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".splash_screen"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
+        <activity
+            android:name=".female_list"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".male_list"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

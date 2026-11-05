@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d5e7a"
+    tools:context=".female_list">
+
+    <!-- Back Home Button -->
+    <Button
+        android:id="@+id/buttonBackHome"
+        android:layout_width="173dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#E0E0DE"
+        android:text="Back Home"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="153dp"
+        android:translationX="-26dp"
+        android:translationY="-8dp"
+        app:srcCompat="@mipmap/app_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="cursive"
+        android:text="Female List"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="122dp"
+        android:background="#D9D9D9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Female Top Box -->
+    <View
+        android:id="@+id/boxFemaleTopLeft"
+        android:layout_width="195dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="189dp"
+        android:background="#AFAFBD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Female Skirt Box -->
+    <View
+        android:id="@+id/boxFemaleTopRight"
+        android:layout_width="195dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="189dp"
+        android:background="#AFAFBD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- P.E. Shirt Box -->
+    <View
+        android:id="@+id/boxFemaleBottomLeft"
+        android:layout_width="195dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="499dp"
+        android:background="#AFAFBD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- P.E. Pants Box -->
+    <View
+        android:id="@+id/boxFemaleBottomRight"
+        android:layout_width="195dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="499dp"
+        android:background="#AFAFBD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Female Top Image -->
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="265dp"
+        android:layout_height="294dp"
+        android:translationX="-42dp"
+        android:translationY="134dp"
+        app:srcCompat="@mipmap/top_female_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Female Skirt Image -->
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="221dp"
+        android:layout_height="234dp"
+        android:translationX="204dp"
+        android:translationY="161dp"
+        app:srcCompat="@mipmap/female_skirt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- P.E. Shirt Image -->
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="249dp"
+        android:layout_height="257dp"
+        android:translationX="-33dp"
+        android:translationY="452dp"
+        app:srcCompat="@mipmap/pe_uniform_female_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- P.E. Pants Image -->
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="252dp"
+        android:layout_height="288dp"
+        android:translationX="195dp"
+        android:translationY="439dp"
+        app:srcCompat="@mipmap/pe_pants_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Female Top Button -->
+    <Button
+        android:id="@+id/buttonFemaleTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="#807783"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Female Top"
+        android:textColor="#F8C9D6"
+        android:textColorLink="#2196F3"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Female Skirt Button -->
+    <Button
+        android:id="@+id/buttonFemaleSkirt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="#807783"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Female Skirt"
+        android:textColor="#F8C9D6"
+        android:textColorLink="#2196F3"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- P.E. Shirt Button -->
+    <Button
+        android:id="@+id/buttonPEShirt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="693dp"
+        android:backgroundTint="#807783"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="P.E. Shirt"
+        android:textColor="#F8C9D6"
+        android:textColorLink="#2196F3"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- P.E. Pants Button -->
+    <Button
+        android:id="@+id/buttonPEPants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="693dp"
+        android:backgroundTint="#807783"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="P.E. Pants"
+        android:textColor="#F8C9D6"
+        android:textColorLink="#2196F3"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

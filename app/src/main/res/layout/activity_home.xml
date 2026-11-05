@@ -123,9 +123,6 @@
         android:layout_marginTop="496dp" />
 
     <!-- Male Pants -->
-
-    <!-- Shop Female Button -->
-
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="236dp"
@@ -136,6 +133,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/male_pants" />
 
+
+    <!-- Shop Female Button -->
     <Button
         android:id="@+id/buttonShopFemale"
         android:layout_width="173dp"
@@ -162,5 +161,19 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="216dp"
         android:layout_marginTop="616dp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/buttoninsplashscreen2"
+        android:layout_width="173dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#E0E0DE"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
