@@ -12,17 +12,17 @@
     <!-- Back Home Button -->
     <Button
         android:id="@+id/buttonBackHome2"
-        android:layout_width="160dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="40dp"
-        android:backgroundTint="#E0E0DE"
-        android:text="Back Home"
+        android:layout_width="173dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#4d5e7a"
+        android:text="◀ Back"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- App Logo -->
     <ImageView

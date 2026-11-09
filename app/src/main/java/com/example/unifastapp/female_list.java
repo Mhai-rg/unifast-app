@@ -11,7 +11,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class female_list extends AppCompatActivity {
-
     private final int femaleTopPrice = 367;
     private final int femaleSkirtPrice = 367;
     private final int peShirtPrice = 367;
