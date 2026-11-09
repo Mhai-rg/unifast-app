@@ -399,10 +399,11 @@
 
     <ImageView
         android:id="@+id/imageView22"
-        android:layout_width="65dp"
-        android:layout_height="60dp"
+        android:layout_width="67dp"
+        android:layout_height="68dp"
         app:srcCompat="@android:drawable/ic_menu_sort_by_size"
         tools:layout_editor_absoluteX="347dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
