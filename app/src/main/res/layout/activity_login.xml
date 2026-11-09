@@ -6,19 +6,188 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ADD8E6"
-    tools:context=".login">
+    tools:context=".login.xml"
+    tools:ignore="ExtraText">
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="412dp"
-        android:layout_height="361dp"
-        app:srcCompat="@mipmap/applogoingreetingsscreen_foreground"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="57dp" />
+        android:id="@+id/imageView8"
+        android:layout_width="399dp"
+        android:layout_height="479dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="435dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/lunarislogodesign__foreground"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="337dp"
+        android:layout_marginBottom="855dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/academylogo_foreground"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="46dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="433dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="46dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="498dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="355dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="180dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="411dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="402dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/dialog_holo_light_frame"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="180dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="349dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/dialog_holo_light_frame"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Email Input Field -->
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="148dp"
+        android:layout_height="54dp"
+        android:inputType="textEmailAddress"
+        android:text="Enter email "
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <!-- Password Input Field -->
+
+    <!-- Login Button -->
+
+    <!-- Sign Up Button -->
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="144dp"
+        android:layout_height="53dp"
+        android:inputType="textPassword"
+        android:text="Enter password"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <Button
+        android:id="@+id/editTextText3"
+        android:layout_width="224dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="575dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="275dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Terms & Conditions Button -->
+
+    <Button
+        android:id="@+id/editTextText4"
+        android:layout_width="263dp"
+        android:layout_height="85dp"
+        android:text="Don't have an account? Sign Up"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="772dp" />
+
+    <Button
+        android:id="@+id/editTextText5"
+        android:layout_width="232dp"
+        android:layout_height="58dp"
+        android:text="Terms &amp; conditions"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="857dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="170dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="656dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="213dp"
+        android:text="keep me logged in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
