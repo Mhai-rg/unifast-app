@@ -6,36 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ADD8E6"
-    tools:context=".login.xml"
+    tools:context="login.xml"
     tools:ignore="ExtraText">
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="399dp"
-        android:layout_height="479dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginBottom="435dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/lunarislogodesign__foreground"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="71dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="337dp"
-        android:layout_marginBottom="855dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/academylogo_foreground"
-        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -98,6 +70,13 @@
         tools:ignore="MissingConstraints" />
 
     <!-- Email Input Field -->
+
+    <!-- Password Input Field -->
+
+    <!-- Login Button -->
+
+    <!-- Sign Up Button -->
+
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="148dp"
@@ -106,14 +85,8 @@
         android:text="Enter email "
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="434dp" />
-
-    <!-- Password Input Field -->
-
-    <!-- Login Button -->
-
-    <!-- Sign Up Button -->
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="439dp" />
 
     <EditText
         android:id="@+id/editTextText2"
@@ -124,7 +97,7 @@
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="498dp" />
+        tools:layout_editor_absoluteY="503dp" />
 
     <Button
         android:id="@+id/editTextText3"
@@ -180,14 +153,40 @@
         android:layout_height="wrap_content"
         app:barrierDirection="top" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="431dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="769dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:letterSpacing="0.15"
+        android:shadowColor="#FFFFFF"
+        android:shadowRadius="3"
+        android:text="WELCOME TO UNIFAST!"
+        android:textColor="#4B267A"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="404dp"
+        android:layout_height="437dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="420dp"
+        android:src="@mipmap/applogoingreetingsscreen_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
