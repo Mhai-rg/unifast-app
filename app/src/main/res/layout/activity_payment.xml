@@ -79,7 +79,7 @@
             <ImageView
                 android:id="@+id/imgGcash"
                 android:layout_width="0dp"
-                android:layout_height="70dp"
+                android:layout_height="200dp"
                 android:layout_weight="1"
                 android:layout_marginEnd="4dp"
                 android:background="@android:color/white"
@@ -109,21 +109,23 @@
             tools:ignore="HardcodedText" />
 
         <!-- Selected payment icon preview (c_round) -->
+
+        <!-- Required field label -->
         <ImageView
             android:id="@+id/imageView37"
             android:layout_width="140dp"
-            android:layout_height="70dp"
-            android:layout_marginStart="12dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
             android:background="@android:color/white"
-            android:scaleType="fitCenter"
             android:padding="4dp"
+            android:scaleType="fitCenter"
             app:layout_constraintBottom_toBottomOf="@+id/textView23"
             app:layout_constraintStart_toEndOf="@+id/textView23"
             app:layout_constraintTop_toTopOf="@+id/textView23"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@mipmap/c_round"
             tools:ignore="ContentDescription" />
 
-        <!-- Required field label -->
         <TextView
             android:id="@+id/textView33"
             android:layout_width="wrap_content"
@@ -181,7 +183,7 @@
         <EditText
             android:id="@+id/etOtp"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height=""
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/white"
