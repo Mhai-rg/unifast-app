@@ -157,7 +157,7 @@
         <EditText
             android:id="@+id/etNumber"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/white"
@@ -185,7 +185,7 @@
         <EditText
             android:id="@+id/etOtp"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/white"
@@ -213,7 +213,7 @@
         <EditText
             android:id="@+id/etMpin"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/white"
@@ -241,7 +241,7 @@
         <EditText
             android:id="@+id/etCard"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/white"
@@ -269,7 +269,7 @@
         <EditText
             android:id="@+id/etCardNumber"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/white"
@@ -297,7 +297,7 @@
         <EditText
             android:id="@+id/etExpirationDate"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/white"
@@ -325,7 +325,7 @@
         <EditText
             android:id="@+id/etCcv"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/white"
@@ -353,7 +353,7 @@
         <EditText
             android:id="@+id/etCardholderName"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/white"
