@@ -16,9 +16,9 @@
 
     <ImageView
         android:id="@+id/imageView29"
-        android:layout_width="319dp"
-        android:layout_height="282dp"
-        android:layout_marginStart="44dp"
+        android:layout_width="296dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="56dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/app_logo" />
@@ -27,7 +27,7 @@
         android:id="@+id/imageView30"
         android:layout_width="481dp"
         android:layout_height="602dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="172dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/whitebackground_foreground" />
@@ -79,8 +79,8 @@
         android:inputType="text"
         android:text="Transaction Complete"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="264dp" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="260dp" />
 
     <TextView
         android:id="@+id/editTextText4"
